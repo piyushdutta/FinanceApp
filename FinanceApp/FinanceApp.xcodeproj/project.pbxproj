@@ -1,0 +1,2140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172DF360223DAE6700320E60 /* FinanceDataSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF35F223DAE6700320E60 /* FinanceDataSourceProvider.swift */; };
+		172DF363223DAFC800320E60 /* ATCFinanceDataSourceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF362223DAFC800320E60 /* ATCFinanceDataSourceProviderProtocol.swift */; };
+		172DF366223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF364223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.swift */; };
+		172DF367223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF365223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.xib */; };
+		172DF369223DC1FD00320E60 /* ATCCardViewControllerContainerRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF368223DC1FD00320E60 /* ATCCardViewControllerContainerRowAdapter.swift */; };
+		172DF36E223DC84000320E60 /* FinanceAssetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF36C223DC84000320E60 /* FinanceAssetCollectionViewCell.swift */; };
+		172DF36F223DC84000320E60 /* FinanceAssetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF36D223DC84000320E60 /* FinanceAssetCollectionViewCell.xib */; };
+		172DF372223DC94800320E60 /* CardHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF370223DC94800320E60 /* CardHeaderCollectionViewCell.swift */; };
+		172DF373223DC94800320E60 /* CardHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF371223DC94800320E60 /* CardHeaderCollectionViewCell.xib */; };
+		172DF376223DCA1100320E60 /* CardFooterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF374223DCA1100320E60 /* CardFooterCollectionViewCell.swift */; };
+		172DF377223DCA1100320E60 /* CardFooterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF375223DCA1100320E60 /* CardFooterCollectionViewCell.xib */; };
+		172DF379223DCB3F00320E60 /* FinanceAssetRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF378223DCB3F00320E60 /* FinanceAssetRowAdapter.swift */; };
+		172DF37C223DCBDC00320E60 /* ATCFinanceAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF37B223DCBDC00320E60 /* ATCFinanceAsset.swift */; };
+		172DF37F223DCE3200320E60 /* FinanceNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF37D223DCE3200320E60 /* FinanceNewsCollectionViewCell.swift */; };
+		172DF380223DCE3200320E60 /* FinanceNewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF37E223DCE3200320E60 /* FinanceNewsCollectionViewCell.xib */; };
+		172DF382223DD2B300320E60 /* CardFooterRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF381223DD2B300320E60 /* CardFooterRowAdapter.swift */; };
+		172DF385223DD35400320E60 /* CardFooterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF384223DD35400320E60 /* CardFooterModel.swift */; };
+		172DF387223DD38C00320E60 /* CardHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF386223DD38C00320E60 /* CardHeaderModel.swift */; };
+		172DF389223DD41A00320E60 /* CardHeaderRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF388223DD41A00320E60 /* CardHeaderRowAdapter.swift */; };
+		172DF38B223DD4F900320E60 /* FinanceNewsRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF38A223DD4F900320E60 /* FinanceNewsRowAdapter.swift */; };
+		172DF390223DD98E00320E60 /* StocksPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF38F223DD98E00320E60 /* StocksPreviewViewController.swift */; };
+		172DF392223E0BE900320E60 /* CyptoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF391223E0BE900320E60 /* CyptoPreviewViewController.swift */; };
+		172DF394223E0C0300320E60 /* NewsPreviewStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF393223E0C0300320E60 /* NewsPreviewStoriesViewController.swift */; };
+		172DF39D223EDC5700320E60 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF39C223EDC5700320E60 /* ExpensesViewController.swift */; };
+		172DF3A0223EDC5C00320E60 /* ExpensesPieChartRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF39F223EDC5C00320E60 /* ExpensesPieChartRowAdapter.swift */; };
+		172DF3A3223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3A1223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.swift */; };
+		172DF3A4223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF3A2223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.xib */; };
+		172DF3A62240A6E800320E60 /* ExpenseCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3A52240A6E800320E60 /* ExpenseCategoriesViewController.swift */; };
+		172DF3AA2240A7E500320E60 /* ATCExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3A92240A7E500320E60 /* ATCExpenseCategory.swift */; };
+		172DF3AC2240A94B00320E60 /* ExpenseCategoryRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3AB2240A94B00320E60 /* ExpenseCategoryRowAdapter.swift */; };
+		172DF3B02242F47600320E60 /* PortfolioPieChartRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3AF2242F47600320E60 /* PortfolioPieChartRowAdapter.swift */; };
+		172DF3B32242F50400320E60 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3B22242F50400320E60 /* PortfolioViewController.swift */; };
+		172DF3B52242FD6400320E60 /* ATCFinanceAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3B42242FD6400320E60 /* ATCFinanceAccount.swift */; };
+		172DF3B82242FE4400320E60 /* FinanceAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3B62242FE4400320E60 /* FinanceAccountCollectionViewCell.swift */; };
+		172DF3B92242FE4400320E60 /* FinanceAccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF3B72242FE4400320E60 /* FinanceAccountCollectionViewCell.xib */; };
+		172DF3BB2242FF7C00320E60 /* FinanceAccountRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3BA2242FF7C00320E60 /* FinanceAccountRowAdapter.swift */; };
+		172DF3C52243208500320E60 /* LiabilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3C22243208500320E60 /* LiabilitiesViewController.swift */; };
+		172DF3C62243208500320E60 /* CashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3C32243208500320E60 /* CashViewController.swift */; };
+		172DF3C72243208500320E60 /* InvestmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3C42243208500320E60 /* InvestmentsViewController.swift */; };
+		172DF3C92243242700320E60 /* BankAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3C82243242700320E60 /* BankAccountsViewController.swift */; };
+		172DF3CB224326BD00320E60 /* StocksHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3CA224326BD00320E60 /* StocksHomeViewController.swift */; };
+		172DF3CD2243279100320E60 /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3CC2243279100320E60 /* StocksViewController.swift */; };
+		172DF3CF22433FB300320E60 /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3CE22433FB300320E60 /* CryptoViewController.swift */; };
+		172DF3D122433FDA00320E60 /* CryptoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3D022433FDA00320E60 /* CryptoHomeViewController.swift */; };
+		172DF3D32243413100320E60 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3D22243413100320E60 /* NewsViewController.swift */; };
+		172DF3D6224343C900320E60 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3D5224343C900320E60 /* TransactionsViewController.swift */; };
+		172DF3D82243444900320E60 /* ATCFinanceTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3D72243444900320E60 /* ATCFinanceTransaction.swift */; };
+		172DF3DB2243487000320E60 /* TransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3D92243487000320E60 /* TransactionCollectionViewCell.swift */; };
+		172DF3DC2243487000320E60 /* TransactionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF3DA2243487000320E60 /* TransactionCollectionViewCell.xib */; };
+		172DF3DE224349BE00320E60 /* TransactionsRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3DD224349BE00320E60 /* TransactionsRowAdapter.swift */; };
+		172DF3E12246E5FA00320E60 /* AssetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3E02246E5FA00320E60 /* AssetDetailsViewController.swift */; };
+		172DF3E32246EFF900320E60 /* ATCFinanceAssetPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3E22246EFF900320E60 /* ATCFinanceAssetPosition.swift */; };
+		172DF3E52246F01000320E60 /* ATCFinanceAssetStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3E42246F01000320E60 /* ATCFinanceAssetStats.swift */; };
+		172DF3E92246F19700320E60 /* FinanceAssetPositionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3E72246F19700320E60 /* FinanceAssetPositionCollectionViewCell.swift */; };
+		172DF3EA2246F19700320E60 /* FinanceAssetPositionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF3E82246F19700320E60 /* FinanceAssetPositionCollectionViewCell.xib */; };
+		172DF3EC2246F77E00320E60 /* FinanceAssetPositionRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3EB2246F77E00320E60 /* FinanceAssetPositionRowAdapter.swift */; };
+		172DF3EE2247125900320E60 /* ATCFinanceNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3ED2247125800320E60 /* ATCFinanceNewsModel.swift */; };
+		172DF3F12247209000320E60 /* FinanceTradingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3F02247209000320E60 /* FinanceTradingModel.swift */; };
+		172DF3F4224720CA00320E60 /* AssetTradingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3F2224720CA00320E60 /* AssetTradingCollectionViewCell.swift */; };
+		172DF3F5224720CA00320E60 /* AssetTradingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF3F3224720CA00320E60 /* AssetTradingCollectionViewCell.xib */; };
+		172DF3F7224721FF00320E60 /* AssetTradingUnitRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3F6224721FF00320E60 /* AssetTradingUnitRowAdapter.swift */; };
+		172DF3F922472C7800320E60 /* FinanceAssetStatsRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3F822472C7800320E60 /* FinanceAssetStatsRowAdapter.swift */; };
+		172DF3FC22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF3FA22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.swift */; };
+		172DF3FD22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172DF3FB22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.xib */; };
+		1737B05923307009005F2DFA /* ATCSocialFirebaseUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737B05723307008005F2DFA /* ATCSocialFirebaseUserManager.swift */; };
+		1737B05A23307009005F2DFA /* ATCSocialUserManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737B05823307008005F2DFA /* ATCSocialUserManagerProtocol.swift */; };
+		17A4BD032235B4DB0027253D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BD022235B4DB0027253D /* AppDelegate.swift */; };
+		17A4BD0A2235B4DE0027253D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BD092235B4DE0027253D /* Assets.xcassets */; };
+		17A4BD0D2235B4DE0027253D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BD0B2235B4DE0027253D /* LaunchScreen.storyboard */; };
+		17A4BFB62235B5210027253D /* InstaRoundImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BD8F2235B5200027253D /* InstaRoundImageButton.swift */; };
+		17A4BFB72235B5210027253D /* InstaBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BD902235B5200027253D /* InstaBorderedButton.swift */; };
+		17A4BFB92235B5210027253D /* ATCProfileItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BD9B2235B5200027253D /* ATCProfileItemCollectionViewCell.swift */; };
+		17A4BFBA2235B5210027253D /* ATCProfileItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BD9C2235B5200027253D /* ATCProfileItemCollectionViewCell.xib */; };
+		17A4BFBB2235B5210027253D /* ATCProfileButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BD9D2235B5200027253D /* ATCProfileButtonCollectionViewCell.swift */; };
+		17A4BFBC2235B5210027253D /* ATCProfileButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BD9E2235B5200027253D /* ATCProfileButtonCollectionViewCell.xib */; };
+		17A4BFBD2235B5210027253D /* ATCProfileButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA02235B5200027253D /* ATCProfileButtonItem.swift */; };
+		17A4BFBE2235B5210027253D /* ATCProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA12235B5200027253D /* ATCProfileItem.swift */; };
+		17A4BFBF2235B5210027253D /* ATCProfileButtonItemRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA32235B5200027253D /* ATCProfileButtonItemRowAdapter.swift */; };
+		17A4BFC02235B5210027253D /* ATCProfileItemRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA42235B5200027253D /* ATCProfileItemRowAdapter.swift */; };
+		17A4BFC12235B5210027253D /* ATCProfileFirebaseUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA62235B5200027253D /* ATCProfileFirebaseUpdater.swift */; };
+		17A4BFC32235B5210027253D /* ATCProfileUpdaterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA82235B5200027253D /* ATCProfileUpdaterProtocol.swift */; };
+		17A4BFC42235B5210027253D /* ATCProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDA92235B5200027253D /* ATCProfileViewController.swift */; };
+		17A4BFC52235B5210027253D /* ATCNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDAB2235B5200027253D /* ATCNetworkingManager.swift */; };
+		17A4BFC92235B5210027253D /* ATCFacebookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDB22235B5200027253D /* ATCFacebookUser.swift */; };
+		17A4BFCA2235B5210027253D /* ATCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDB32235B5200027253D /* ATCNotification.swift */; };
+		17A4BFCB2235B5210027253D /* ATCLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDB52235B5200027253D /* ATCLineChart.swift */; };
+		17A4BFCC2235B5210027253D /* ATCBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDB62235B5200027253D /* ATCBarChart.swift */; };
+		17A4BFCD2235B5210027253D /* ATCPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDB72235B5200027253D /* ATCPieChart.swift */; };
+		17A4BFCE2235B5210027253D /* ATCText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDB82235B5200027253D /* ATCText.swift */; };
+		17A4BFD02235B5210027253D /* ATCDateRangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDBA2235B5200027253D /* ATCDateRangeModel.swift */; };
+		17A4BFD12235B5210027253D /* ATCImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDBB2235B5200027253D /* ATCImage.swift */; };
+		17A4BFD22235B5210027253D /* ATCViewControllerContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDBC2235B5200027253D /* ATCViewControllerContainerViewModel.swift */; };
+		17A4BFD32235B5210027253D /* ATCWalkthroughModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDBD2235B5200027253D /* ATCWalkthroughModel.swift */; };
+		17A4BFD42235B5210027253D /* ATCDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDBE2235B5210027253D /* ATCDivider.swift */; };
+		17A4BFD52235B5210027253D /* ATCSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDBF2235B5210027253D /* ATCSearchBar.swift */; };
+		17A4BFD72235B5210027253D /* ATCUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC12235B5210027253D /* ATCUser.swift */; };
+		17A4BFD82235B5210027253D /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC32235B5210027253D /* UIScrollView.swift */; };
+		17A4BFD92235B5210027253D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC42235B5210027253D /* Date.swift */; };
+		17A4BFDA2235B5210027253D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC52235B5210027253D /* UIView.swift */; };
+		17A4BFDB2235B5210027253D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC62235B5210027253D /* UIColor.swift */; };
+		17A4BFDC2235B5210027253D /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC72235B5210027253D /* UITextField.swift */; };
+		17A4BFDD2235B5210027253D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC82235B5210027253D /* String.swift */; };
+		17A4BFDE2235B5210027253D /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDC92235B5210027253D /* UIButton.swift */; };
+		17A4BFDF2235B5210027253D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDCA2235B5210027253D /* UIImage.swift */; };
+		17A4BFE02235B5210027253D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDCB2235B5210027253D /* Double.swift */; };
+		17A4C0082235B5210027253D /* ATCLineChartAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDFE2235B5210027253D /* ATCLineChartAdapter.swift */; };
+		17A4C0092235B5210027253D /* ATCPieChartAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BDFF2235B5210027253D /* ATCPieChartAdapter.swift */; };
+		17A4C00A2235B5210027253D /* ATCTextRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE002235B5210027253D /* ATCTextRowAdapter.swift */; };
+		17A4C00B2235B5210027253D /* ATCGridViewRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE012235B5210027253D /* ATCGridViewRowAdapter.swift */; };
+		17A4C00C2235B5210027253D /* ATCStoryAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE022235B5210027253D /* ATCStoryAdapter.swift */; };
+		17A4C00D2235B5210027253D /* ATCDividerRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE032235B5210027253D /* ATCDividerRowAdapter.swift */; };
+		17A4C00E2235B5210027253D /* ATCSquareStoryRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE042235B5210027253D /* ATCSquareStoryRowAdapter.swift */; };
+		17A4C0102235B5210027253D /* ATCDateRangeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE062235B5210027253D /* ATCDateRangeAdapter.swift */; };
+		17A4C0112235B5210027253D /* ATCViewControllerContainerRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE072235B5210027253D /* ATCViewControllerContainerRowAdapter.swift */; };
+		17A4C0122235B5210027253D /* ATCCarouselAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE082235B5210027253D /* ATCCarouselAdapter.swift */; };
+		17A4C0132235B5210027253D /* ATCSearchBarAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE092235B5210027253D /* ATCSearchBarAdapter.swift */; };
+		17A4C0142235B5210027253D /* ATCBarChartAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE0A2235B5210027253D /* ATCBarChartAdapter.swift */; };
+		17A4C0152235B5210027253D /* ATCImageRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE0B2235B5210027253D /* ATCImageRowAdapter.swift */; };
+		17A4C0162235B5210027253D /* ATCNotificationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE0C2235B5210027253D /* ATCNotificationAdapter.swift */; };
+		17A4C0182235B5210027253D /* UIViewController+ATCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE102235B5210027253D /* UIViewController+ATCAdditions.swift */; };
+		17A4C0192235B5210027253D /* ATCHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE122235B5210027253D /* ATCHostViewController.swift */; };
+		17A4C01A2235B5210027253D /* ATCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE132235B5210027253D /* ATCNavigationController.swift */; };
+		17A4C01B2235B5210027253D /* ATCMenuItemCollectionViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE142235B5210027253D /* ATCMenuItemCollectionViewCellProtocol.swift */; };
+		17A4C01C2235B5210027253D /* ATCDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE152235B5210027253D /* ATCDrawerController.swift */; };
+		17A4C01D2235B5210027253D /* ATCMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BE162235B5210027253D /* ATCMenuTableViewController.xib */; };
+		17A4C01E2235B5210027253D /* ATCMenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE172235B5210027253D /* ATCMenuCollectionViewController.swift */; };
+		17A4C01F2235B5210027253D /* ATCMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE182235B5210027253D /* ATCMenuTableViewController.swift */; };
+		17A4C0202235B5210027253D /* ATCMenuHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BE192235B5210027253D /* ATCMenuHeaderTableViewCell.xib */; };
+		17A4C0212235B5210027253D /* ATCMenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE1A2235B5210027253D /* ATCMenuHeaderTableViewCell.swift */; };
+		17A4C0222235B5210027253D /* ATCMenuItemRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE1B2235B5210027253D /* ATCMenuItemRowAdapter.swift */; };
+		17A4C0232235B5210027253D /* ATCWalkthroughViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BE1D2235B5210027253D /* ATCWalkthroughViewController.xib */; };
+		17A4C0242235B5210027253D /* ATCWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE1E2235B5210027253D /* ATCWalkthroughViewController.swift */; };
+		17A4C0252235B5210027253D /* ATCClassicWalkthroughViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BE1F2235B5210027253D /* ATCClassicWalkthroughViewController.xib */; };
+		17A4C0262235B5210027253D /* ATCClassicWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE202235B5210027253D /* ATCClassicWalkthroughViewController.swift */; };
+		17A4C0272235B5210027253D /* ATCGenericCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE212235B5210027253D /* ATCGenericCollectionViewController.swift */; };
+		17A4C0282235B5210027253D /* ATCProfileScreenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE232235B5210027253D /* ATCProfileScreenProtocol.swift */; };
+		17A4C02B2235B5210027253D /* ATCLiquidCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE282235B5210027253D /* ATCLiquidCollectionViewLayout.swift */; };
+		17A4C02C2235B5210027253D /* ATCCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE292235B5210027253D /* ATCCollectionViewFlowLayout.swift */; };
+		17A4C02D2235B5210027253D /* ATCRemoteHostContextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE2A2235B5210027253D /* ATCRemoteHostContextProvider.swift */; };
+		17A4C02E2235B5210027253D /* ATCWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE2B2235B5210027253D /* ATCWebViewController.swift */; };
+		17A4C02F2235B5210027253D /* ATCContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE2C2235B5210027253D /* ATCContactUsViewController.swift */; };
+		17A4C0302235B5210027253D /* ATCGenericSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE2D2235B5210027253D /* ATCGenericSearchViewController.swift */; };
+		17A4C0312235B5210027253D /* ATCViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE2E2235B5210027253D /* ATCViewControllerFactory.swift */; };
+		17A4C0472235B5210027253D /* ATCFacebookAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE4B2235B5210027253D /* ATCFacebookAPIManager.swift */; };
+		17A4C0482235B5210027253D /* ATCAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BE4C2235B5210027253D /* ATCAPIManager.swift */; };
+		17A4C08B2235B5210027253D /* ATCImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEA42235B5210027253D /* ATCImageCollectionViewCell.swift */; };
+		17A4C08C2235B5210027253D /* ATCStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEA52235B5210027253D /* ATCStoryCollectionViewCell.swift */; };
+		17A4C08D2235B5210027253D /* ATCGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEA62235B5210027253D /* ATCGridCollectionViewCell.swift */; };
+		17A4C08E2235B5210027253D /* ATCViewControllerContainerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEA72235B5210027253D /* ATCViewControllerContainerCollectionViewCell.xib */; };
+		17A4C08F2235B5210027253D /* ATCImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEA82235B5210027253D /* ATCImageCollectionViewCell.xib */; };
+		17A4C0902235B5210027253D /* ATCDividerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEA92235B5210027253D /* ATCDividerCollectionViewCell.swift */; };
+		17A4C0912235B5210027253D /* ATCPieChartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEAA2235B5210027253D /* ATCPieChartCollectionViewCell.xib */; };
+		17A4C0922235B5210027253D /* ATCStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEAB2235B5210027253D /* ATCStoryCollectionViewCell.xib */; };
+		17A4C0932235B5210027253D /* ATCSquareStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEAC2235B5210027253D /* ATCSquareStoryCollectionViewCell.xib */; };
+		17A4C0942235B5210027253D /* ATCPieChartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEAD2235B5210027253D /* ATCPieChartCollectionViewCell.swift */; };
+		17A4C0952235B5210027253D /* ATCSquareStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEAE2235B5210027253D /* ATCSquareStoryCollectionViewCell.swift */; };
+		17A4C0962235B5210027253D /* ATCGridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEAF2235B5210027253D /* ATCGridCollectionViewCell.xib */; };
+		17A4C0972235B5210027253D /* ATCTextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEB02235B5210027253D /* ATCTextCollectionViewCell.xib */; };
+		17A4C0982235B5210027253D /* ATCLineChartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEB12235B5210027253D /* ATCLineChartCollectionViewCell.swift */; };
+		17A4C0992235B5210027253D /* ATCBarChartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEB32235B5210027253D /* ATCBarChartCollectionViewCell.swift */; };
+		17A4C09A2235B5210027253D /* ATCBarChartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEB42235B5210027253D /* ATCBarChartCollectionViewCell.xib */; };
+		17A4C09B2235B5210027253D /* ATCDividerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEB52235B5210027253D /* ATCDividerCollectionViewCell.xib */; };
+		17A4C09C2235B5210027253D /* ATCViewControllerContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEB62235B5210027253D /* ATCViewControllerContainerCollectionViewCell.swift */; };
+		17A4C09D2235B5210027253D /* ATCCircledIconMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEB82235B5210027253D /* ATCCircledIconMenuCollectionViewCell.xib */; };
+		17A4C09E2235B5210027253D /* ATCCircledIconMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEB92235B5210027253D /* ATCCircledIconMenuCollectionViewCell.swift */; };
+		17A4C09F2235B5210027253D /* ATCSearchBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEBB2235B5210027253D /* ATCSearchBarCollectionViewCell.swift */; };
+		17A4C0A02235B5210027253D /* ATCSearchBarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEBC2235B5210027253D /* ATCSearchBarCollectionViewCell.xib */; };
+		17A4C0A42235B5210027253D /* ATCNotificationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEC12235B5210027253D /* ATCNotificationCollectionViewCell.xib */; };
+		17A4C0A52235B5210027253D /* ATCDateRangeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEC22235B5210027253D /* ATCDateRangeCollectionViewCell.swift */; };
+		17A4C0A62235B5210027253D /* ATCSelectFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEC32235B5210027253D /* ATCSelectFilterCollectionViewCell.swift */; };
+		17A4C0A72235B5210027253D /* ATCSelectFilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEC42235B5210027253D /* ATCSelectFilterCollectionViewCell.xib */; };
+		17A4C0A82235B5210027253D /* ATCNotificationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEC52235B5210027253D /* ATCNotificationCollectionViewCell.swift */; };
+		17A4C0A92235B5210027253D /* ATCLineChartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEC62235B5210027253D /* ATCLineChartCollectionViewCell.xib */; };
+		17A4C0AA2235B5210027253D /* ATCTextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEC72235B5210027253D /* ATCTextCollectionViewCell.swift */; };
+		17A4C0AB2235B5210027253D /* ATCCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEC82235B5210027253D /* ATCCarouselCollectionViewCell.swift */; };
+		17A4C0AC2235B5210027253D /* ATCDateRangeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEC92235B5210027253D /* ATCDateRangeCollectionViewCell.xib */; };
+		17A4C0AD2235B5210027253D /* ATCCarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BECA2235B5210027253D /* ATCCarouselCollectionViewCell.xib */; };
+		17A4C0B12235B5210027253D /* ATCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BECF2235B5210027253D /* ATCTextField.swift */; };
+		17A4C0B52235B5210027253D /* Misc.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BED42235B5210027253D /* Misc.xcassets */; };
+		17A4C0B62235B5210027253D /* CoreImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BED52235B5210027253D /* CoreImages.xcassets */; };
+		17A4C0B72235B5210027253D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BED82235B5210027253D /* NotoSans-Regular.ttf */; };
+		17A4C0B82235B5210027253D /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BED92235B5210027253D /* NotoSans-Bold.ttf */; };
+		17A4C0B92235B5210027253D /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEDA2235B5210027253D /* NotoSans-BoldItalic.ttf */; };
+		17A4C0BA2235B5210027253D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEDB2235B5210027253D /* LICENSE.txt */; };
+		17A4C0BB2235B5210027253D /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEDC2235B5210027253D /* NotoSans-Italic.ttf */; };
+		17A4C0BC2235B5210027253D /* FallingSkyCondOuObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEDE2235B5210027253D /* FallingSkyCondOuObl.otf */; };
+		17A4C0BD2235B5210027253D /* FallingSkyCondOu.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEDF2235B5210027253D /* FallingSkyCondOu.otf */; };
+		17A4C0BE2235B5210027253D /* FallingSkyExt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE02235B5210027253D /* FallingSkyExt.otf */; };
+		17A4C0BF2235B5210027253D /* FallingSkyExtObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE12235B5210027253D /* FallingSkyExtObl.otf */; };
+		17A4C0C02235B5210027253D /* FallingSkyCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE22235B5210027253D /* FallingSkyCond.otf */; };
+		17A4C0C12235B5210027253D /* FallingSkyOuObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE32235B5210027253D /* FallingSkyOuObl.otf */; };
+		17A4C0C22235B5210027253D /* FallingSkyObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE42235B5210027253D /* FallingSkyObl.otf */; };
+		17A4C0C32235B5210027253D /* FallingSkyExtOu.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE52235B5210027253D /* FallingSkyExtOu.otf */; };
+		17A4C0C42235B5210027253D /* FallingSkyBdObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE62235B5210027253D /* FallingSkyBdObl.otf */; };
+		17A4C0C52235B5210027253D /* FallingSkyBd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE72235B5210027253D /* FallingSkyBd.otf */; };
+		17A4C0C62235B5210027253D /* FallingSkyOu.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE82235B5210027253D /* FallingSkyOu.otf */; };
+		17A4C0C72235B5210027253D /* FallingSkyBlk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEE92235B5210027253D /* FallingSkyBlk.otf */; };
+		17A4C0C82235B5210027253D /* FallingSky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEEA2235B5210027253D /* FallingSky.otf */; };
+		17A4C0C92235B5210027253D /* FallingSkyCondObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEEB2235B5210027253D /* FallingSkyCondObl.otf */; };
+		17A4C0CA2235B5210027253D /* FallingSkyBlkObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEEC2235B5210027253D /* FallingSkyBlkObl.otf */; };
+		17A4C0CB2235B5210027253D /* FallingSkyExtOuObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BEED2235B5210027253D /* FallingSkyExtOuObl.otf */; };
+		17A4C0D02235B5210027253D /* ATCGenericLocalHeteroDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEF52235B5210027253D /* ATCGenericLocalHeteroDataSource.swift */; };
+		17A4C0D12235B5210027253D /* ATCPersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEF62235B5210027253D /* ATCPersistentStore.swift */; };
+		17A4C0D22235B5210027253D /* ATCGenericRestAPIDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEF72235B5210027253D /* ATCGenericRestAPIDataSource.swift */; };
+		17A4C0D32235B5220027253D /* ATCGenericLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEF82235B5210027253D /* ATCGenericLocalDataSource.swift */; };
+		17A4C0D42235B5220027253D /* ATCFirebaseSocialGraphManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEF92235B5210027253D /* ATCFirebaseSocialGraphManager.swift */; };
+		17A4C0D52235B5220027253D /* ATCFirebaseLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEFA2235B5210027253D /* ATCFirebaseLoginManager.swift */; };
+		17A4C0D62235B5220027253D /* ATCUIGenericConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BEFB2235B5210027253D /* ATCUIGenericConfigurationProtocol.swift */; };
+		17A4C0DA2235B5220027253D /* ATCFirebaseFirestoreDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF002235B5210027253D /* ATCFirebaseFirestoreDataSource.swift */; };
+		17A4C0DB2235B5220027253D /* ATCFirebaseSearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF012235B5210027253D /* ATCFirebaseSearchDataSource.swift */; };
+		17A4C0DD2235B5220027253D /* UITabBarItem+ATCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF032235B5210027253D /* UITabBarItem+ATCAdditions.swift */; };
+		17A4C0DE2235B5220027253D /* TimeFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF042235B5210027253D /* TimeFormatHelper.swift */; };
+		17A4C0E12235B5220027253D /* ATCDiskPersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF072235B5210027253D /* ATCDiskPersistenceStore.swift */; };
+		17A4C0E22235B5220027253D /* ATCClassicSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BF0A2235B5210027253D /* ATCClassicSignUpViewController.xib */; };
+		17A4C0E32235B5220027253D /* ATCClassicSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF0B2235B5210027253D /* ATCClassicSignUpViewController.swift */; };
+		17A4C0E42235B5220027253D /* ATCClassicLandingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BF0C2235B5210027253D /* ATCClassicLandingScreenViewController.xib */; };
+		17A4C0E52235B5220027253D /* ATCClassicLandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF0D2235B5210027253D /* ATCClassicLandingScreenViewController.swift */; };
+		17A4C0E62235B5220027253D /* ATCClassicLoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF0E2235B5210027253D /* ATCClassicLoginScreenViewController.swift */; };
+		17A4C0E72235B5220027253D /* ATCClassicLoginScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4BF0F2235B5210027253D /* ATCClassicLoginScreenViewController.xib */; };
+		17A4C0E82235B5220027253D /* ATCOnboardingServerConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF102235B5210027253D /* ATCOnboardingServerConfigurationProtocol.swift */; };
+		17A4C0E92235B5220027253D /* ATCOnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF112235B5210027253D /* ATCOnboardingCoordinator.swift */; };
+		17A4C0EA2235B5220027253D /* ATCLoginScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF122235B5210027253D /* ATCLoginScreenManager.swift */; };
+		17A4C0EB2235B5220027253D /* ATCLandingScreenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF132235B5210027253D /* ATCLandingScreenProtocol.swift */; };
+		17A4C0EC2235B5220027253D /* ATCSignUpScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF142235B5210027253D /* ATCSignUpScreenManager.swift */; };
+		17A4C0ED2235B5220027253D /* ATCLandingScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF152235B5210027253D /* ATCLandingScreenManager.swift */; };
+		17A4C0EE2235B5220027253D /* ATCLandingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF162235B5210027253D /* ATCLandingScreenViewModel.swift */; };
+		17A4C0EF2235B5220027253D /* ATCOnboardingConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF172235B5210027253D /* ATCOnboardingConfigurationProtocol.swift */; };
+		17A4C0F02235B5220027253D /* UIImage+ATCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF182235B5210027253D /* UIImage+ATCAdditions.swift */; };
+		17A4C0F12235B5220027253D /* ATCGenericUIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF192235B5210027253D /* ATCGenericUIConfiguration.swift */; };
+		17A4C0F82235B5220027253D /* CalendarDateRangePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF232235B5210027253D /* CalendarDateRangePickerCell.swift */; };
+		17A4C0F92235B5220027253D /* CalendarDateRangePickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF242235B5210027253D /* CalendarDateRangePickerHeaderView.swift */; };
+		17A4C0FA2235B5220027253D /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF252235B5210027253D /* CalendarDateRangePickerViewController.swift */; };
+		17A4C0FB2235B5220027253D /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF272235B5210027253D /* ConstraintMultiplierTarget.swift */; };
+		17A4C0FC2235B5220027253D /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF282235B5210027253D /* LayoutConstraintItem.swift */; };
+		17A4C0FD2235B5220027253D /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF292235B5210027253D /* ConstraintDescription.swift */; };
+		17A4C0FE2235B5220027253D /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF2A2235B5210027253D /* ConstraintMakerPriortizable.swift */; };
+		17A4C0FF2235B5220027253D /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF2B2235B5210027253D /* ConstraintAttributes.swift */; };
+		17A4C1002235B5220027253D /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF2C2235B5210027253D /* ConstraintViewDSL.swift */; };
+		17A4C1012235B5220027253D /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF2D2235B5210027253D /* ConstraintPriorityTarget.swift */; };
+		17A4C1022235B5220027253D /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF2E2235B5210027253D /* ConstraintInsets.swift */; };
+		17A4C1032235B5220027253D /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF2F2235B5210027253D /* ConstraintMakerFinalizable.swift */; };
+		17A4C1042235B5220027253D /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF302235B5210027253D /* ConstraintDSL.swift */; };
+		17A4C1052235B5220027253D /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF312235B5210027253D /* ConstraintMakerExtendable.swift */; };
+		17A4C1062235B5220027253D /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF322235B5210027253D /* ConstraintPriority.swift */; };
+		17A4C1072235B5220027253D /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF332235B5210027253D /* ConstraintInsetTarget.swift */; };
+		17A4C1082235B5220027253D /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF352235B5210027253D /* ConstraintConfig.swift */; };
+		17A4C1092235B5220027253D /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF362235B5210027253D /* UILayoutSupport+Extensions.swift */; };
+		17A4C10A2235B5220027253D /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF372235B5210027253D /* ConstraintView.swift */; };
+		17A4C10B2235B5220027253D /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF382235B5210027253D /* ConstraintLayoutGuide.swift */; };
+		17A4C10C2235B5220027253D /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF392235B5210027253D /* ConstraintLayoutSupport.swift */; };
+		17A4C10D2235B5220027253D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF3A2235B5210027253D /* Typealiases.swift */; };
+		17A4C10E2235B5220027253D /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF3B2235B5210027253D /* ConstraintConstantTarget.swift */; };
+		17A4C10F2235B5220027253D /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF3C2235B5210027253D /* ConstraintOffsetTarget.swift */; };
+		17A4C1102235B5220027253D /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF3D2235B5210027253D /* ConstraintMakerEditable.swift */; };
+		17A4C1112235B5220027253D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF3E2235B5210027253D /* ConstraintMaker.swift */; };
+		17A4C1122235B5220027253D /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF3F2235B5210027253D /* ConstraintRelation.swift */; };
+		17A4C1132235B5220027253D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF402235B5210027253D /* ConstraintLayoutGuideDSL.swift */; };
+		17A4C1142235B5220027253D /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF412235B5210027253D /* ConstraintView+Extensions.swift */; };
+		17A4C1152235B5220027253D /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF422235B5210027253D /* ConstraintItem.swift */; };
+		17A4C1162235B5220027253D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF432235B5210027253D /* Constraint.swift */; };
+		17A4C1172235B5220027253D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF442235B5210027253D /* Debugging.swift */; };
+		17A4C1182235B5220027253D /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF452235B5210027253D /* ConstraintRelatableTarget.swift */; };
+		17A4C1192235B5220027253D /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF462235B5210027253D /* LayoutConstraint.swift */; };
+		17A4C11A2235B5220027253D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF472235B5210027253D /* ConstraintLayoutGuide+Extensions.swift */; };
+		17A4C11B2235B5220027253D /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF482235B5210027253D /* ConstraintLayoutSupportDSL.swift */; };
+		17A4C11C2235B5220027253D /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF492235B5210027253D /* ConstraintMakerRelatable.swift */; };
+		17A4C1252235B5220027253D /* ATCPushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF562235B5210027253D /* ATCPushNotificationSender.swift */; };
+		17A4C1262235B5220027253D /* ATCPushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4BF572235B5210027253D /* ATCPushNotificationManager.swift */; };
+		17A4C12E2235C4C30027253D /* FinanceUIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C12D2235C4C30027253D /* FinanceUIConfiguration.swift */; };
+		17A4C1302235C7590027253D /* FinanceHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C12F2235C7590027253D /* FinanceHostViewController.swift */; };
+		17A4C1322235C7890027253D /* FinanceOnboardingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C1312235C7890027253D /* FinanceOnboardingConfiguration.swift */; };
+		17A4C1342235CD0C0027253D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C1332235CD0C0027253D /* SettingsViewController.swift */; };
+		17A4C1362235CE4D0027253D /* ATCFacebookPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C1352235CE4D0027253D /* ATCFacebookPost.swift */; };
+		17A4C1382235CFF50027253D /* FinanceStaticDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C1372235CFF50027253D /* FinanceStaticDataProvider.swift */; };
+		17A4C13C2235D1A70027253D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17A4C13B2235D1A70027253D /* GoogleService-Info.plist */; };
+		17A4C1402235DE1D0027253D /* ATCDatedLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C13E2235DE1D0027253D /* ATCDatedLineChartViewController.swift */; };
+		17A4C1412235DE1D0027253D /* ATCDatedLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4C13F2235DE1D0027253D /* ATCDatedLineChartViewController.xib */; };
+		17A4C1442235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C1422235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.swift */; };
+		17A4C1452235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4C1432235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.xib */; };
+		17A4C1472235ED200027253D /* ATCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4C1462235ED200027253D /* ATCHomeViewController.swift */; };
+		17C8456D224834CE007AE8B5 /* FinanceNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8456C224834CE007AE8B5 /* FinanceNotificationsViewController.swift */; };
+		17C8456F22483711007AE8B5 /* FinanceNotificationRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8456E22483711007AE8B5 /* FinanceNotificationRowAdapter.swift */; };
+		17C8457122483ECB007AE8B5 /* FinanceAccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8457022483ECB007AE8B5 /* FinanceAccountDetailsViewController.swift */; };
+		17C845842249B08E007AE8B5 /* AssetSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C845832249B08E007AE8B5 /* AssetSearchViewController.swift */; };
+		17C845862249C751007AE8B5 /* BankAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C845852249C751007AE8B5 /* BankAccountViewController.swift */; };
+		17C845882249D730007AE8B5 /* AddBankAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C845872249D730007AE8B5 /* AddBankAccountModel.swift */; };
+		17C8458B2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C845892249D79A007AE8B5 /* AddBankAccountCollectionViewCell.swift */; };
+		17C8458C2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C8458A2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.xib */; };
+		17C8458E2249D828007AE8B5 /* AddBankAccountButtonRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8458D2249D828007AE8B5 /* AddBankAccountButtonRowAdapter.swift */; };
+		17C845902249DBC0007AE8B5 /* ATCFinanceInstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8458F2249DBC0007AE8B5 /* ATCFinanceInstitution.swift */; };
+		17C845922249DDF9007AE8B5 /* FinanceAddInstitutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C845912249DDF9007AE8B5 /* FinanceAddInstitutionViewController.swift */; };
+		17C845952249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C845932249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.swift */; };
+		17C845962249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C845942249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.xib */; };
+		17E8F5202249E0C20030BB3E /* FinanceInstitutionRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F51F2249E0C20030BB3E /* FinanceInstitutionRowAdapter.swift */; };
+		17E8F583224C20410030BB3E /* ATCKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F582224C20410030BB3E /* ATCKeyboardViewController.swift */; };
+		17E8F585224C21D30030BB3E /* ATCKeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F584224C21D30030BB3E /* ATCKeyboardKey.swift */; };
+		17E8F588224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F586224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.swift */; };
+		17E8F589224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E8F587224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.xib */; };
+		17E8F58B224C22780030BB3E /* ATCKeyboardKeyRowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F58A224C22780030BB3E /* ATCKeyboardKeyRowAdapter.swift */; };
+		17E8F58F224C23630030BB3E /* AssetTradingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F58D224C23630030BB3E /* AssetTradingViewController.swift */; };
+		17E8F590224C23630030BB3E /* AssetTradingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E8F58E224C23630030BB3E /* AssetTradingViewController.xib */; };
+		17E8F592224DB6950030BB3E /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8F591224DB6950030BB3E /* WatchlistViewController.swift */; };
+		E3F55642DF909B3D92B6340B /* Pods_FinanceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882038A864736D192EAEB3CC /* Pods_FinanceApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172DF35F223DAE6700320E60 /* FinanceDataSourceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDataSourceProvider.swift; sourceTree = "<group>"; };
+		172DF362223DAFC800320E60 /* ATCFinanceDataSourceProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceDataSourceProviderProtocol.swift; sourceTree = "<group>"; };
+		172DF364223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCardViewControllerContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF365223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATCCardViewControllerContainerCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF368223DC1FD00320E60 /* ATCCardViewControllerContainerRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCardViewControllerContainerRowAdapter.swift; sourceTree = "<group>"; };
+		172DF36C223DC84000320E60 /* FinanceAssetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAssetCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF36D223DC84000320E60 /* FinanceAssetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceAssetCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF370223DC94800320E60 /* CardHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF371223DC94800320E60 /* CardHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF374223DCA1100320E60 /* CardFooterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooterCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF375223DCA1100320E60 /* CardFooterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardFooterCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF378223DCB3F00320E60 /* FinanceAssetRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAssetRowAdapter.swift; sourceTree = "<group>"; };
+		172DF37B223DCBDC00320E60 /* ATCFinanceAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceAsset.swift; sourceTree = "<group>"; };
+		172DF37D223DCE3200320E60 /* FinanceNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceNewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF37E223DCE3200320E60 /* FinanceNewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceNewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF381223DD2B300320E60 /* CardFooterRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooterRowAdapter.swift; sourceTree = "<group>"; };
+		172DF384223DD35400320E60 /* CardFooterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooterModel.swift; sourceTree = "<group>"; };
+		172DF386223DD38C00320E60 /* CardHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderModel.swift; sourceTree = "<group>"; };
+		172DF388223DD41A00320E60 /* CardHeaderRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderRowAdapter.swift; sourceTree = "<group>"; };
+		172DF38A223DD4F900320E60 /* FinanceNewsRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceNewsRowAdapter.swift; sourceTree = "<group>"; };
+		172DF38F223DD98E00320E60 /* StocksPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksPreviewViewController.swift; sourceTree = "<group>"; };
+		172DF391223E0BE900320E60 /* CyptoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyptoPreviewViewController.swift; sourceTree = "<group>"; };
+		172DF393223E0C0300320E60 /* NewsPreviewStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPreviewStoriesViewController.swift; sourceTree = "<group>"; };
+		172DF39C223EDC5700320E60 /* ExpensesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		172DF39F223EDC5C00320E60 /* ExpensesPieChartRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesPieChartRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3A1223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF3A2223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF3A52240A6E800320E60 /* ExpenseCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoriesViewController.swift; sourceTree = "<group>"; };
+		172DF3A92240A7E500320E60 /* ATCExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCExpenseCategory.swift; sourceTree = "<group>"; };
+		172DF3AB2240A94B00320E60 /* ExpenseCategoryRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3AF2242F47600320E60 /* PortfolioPieChartRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPieChartRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3B22242F50400320E60 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		172DF3B42242FD6400320E60 /* ATCFinanceAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceAccount.swift; sourceTree = "<group>"; };
+		172DF3B62242FE4400320E60 /* FinanceAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF3B72242FE4400320E60 /* FinanceAccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceAccountCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF3BA2242FF7C00320E60 /* FinanceAccountRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAccountRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3C22243208500320E60 /* LiabilitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiabilitiesViewController.swift; sourceTree = "<group>"; };
+		172DF3C32243208500320E60 /* CashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashViewController.swift; sourceTree = "<group>"; };
+		172DF3C42243208500320E60 /* InvestmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentsViewController.swift; sourceTree = "<group>"; };
+		172DF3C82243242700320E60 /* BankAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountsViewController.swift; sourceTree = "<group>"; };
+		172DF3CA224326BD00320E60 /* StocksHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksHomeViewController.swift; sourceTree = "<group>"; };
+		172DF3CC2243279100320E60 /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
+		172DF3CE22433FB300320E60 /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
+		172DF3D022433FDA00320E60 /* CryptoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHomeViewController.swift; sourceTree = "<group>"; };
+		172DF3D22243413100320E60 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		172DF3D5224343C900320E60 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		172DF3D72243444900320E60 /* ATCFinanceTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceTransaction.swift; sourceTree = "<group>"; };
+		172DF3D92243487000320E60 /* TransactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF3DA2243487000320E60 /* TransactionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF3DD224349BE00320E60 /* TransactionsRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3E02246E5FA00320E60 /* AssetDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailsViewController.swift; sourceTree = "<group>"; };
+		172DF3E22246EFF900320E60 /* ATCFinanceAssetPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceAssetPosition.swift; sourceTree = "<group>"; };
+		172DF3E42246F01000320E60 /* ATCFinanceAssetStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceAssetStats.swift; sourceTree = "<group>"; };
+		172DF3E72246F19700320E60 /* FinanceAssetPositionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAssetPositionCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF3E82246F19700320E60 /* FinanceAssetPositionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceAssetPositionCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF3EB2246F77E00320E60 /* FinanceAssetPositionRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAssetPositionRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3ED2247125800320E60 /* ATCFinanceNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFinanceNewsModel.swift; sourceTree = "<group>"; };
+		172DF3F02247209000320E60 /* FinanceTradingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTradingModel.swift; sourceTree = "<group>"; };
+		172DF3F2224720CA00320E60 /* AssetTradingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTradingCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF3F3224720CA00320E60 /* AssetTradingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetTradingCollectionViewCell.xib; sourceTree = "<group>"; };
+		172DF3F6224721FF00320E60 /* AssetTradingUnitRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTradingUnitRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3F822472C7800320E60 /* FinanceAssetStatsRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAssetStatsRowAdapter.swift; sourceTree = "<group>"; };
+		172DF3FA22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceAssetStatsCollectionViewCell.swift; sourceTree = "<group>"; };
+		172DF3FB22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinanceAssetStatsCollectionViewCell.xib; sourceTree = "<group>"; };
+		1737B05723307008005F2DFA /* ATCSocialFirebaseUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSocialFirebaseUserManager.swift; sourceTree = "<group>"; };
+		1737B05823307008005F2DFA /* ATCSocialUserManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSocialUserManagerProtocol.swift; sourceTree = "<group>"; };
+		17A4BCFF2235B4DB0027253D /* FinanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A4BD022235B4DB0027253D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A4BD092235B4DE0027253D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A4BD0C2235B4DE0027253D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A4BD0E2235B4DE0027253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A4BD8F2235B5200027253D /* InstaRoundImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaRoundImageButton.swift; sourceTree = "<group>"; };
+		17A4BD902235B5200027253D /* InstaBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaBorderedButton.swift; sourceTree = "<group>"; };
+		17A4BD9B2235B5200027253D /* ATCProfileItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BD9C2235B5200027253D /* ATCProfileItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCProfileItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BD9D2235B5200027253D /* ATCProfileButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BD9E2235B5200027253D /* ATCProfileButtonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCProfileButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BDA02235B5200027253D /* ATCProfileButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileButtonItem.swift; sourceTree = "<group>"; };
+		17A4BDA12235B5200027253D /* ATCProfileItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileItem.swift; sourceTree = "<group>"; };
+		17A4BDA32235B5200027253D /* ATCProfileButtonItemRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileButtonItemRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BDA42235B5200027253D /* ATCProfileItemRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileItemRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BDA62235B5200027253D /* ATCProfileFirebaseUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileFirebaseUpdater.swift; sourceTree = "<group>"; };
+		17A4BDA82235B5200027253D /* ATCProfileUpdaterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileUpdaterProtocol.swift; sourceTree = "<group>"; };
+		17A4BDA92235B5200027253D /* ATCProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileViewController.swift; sourceTree = "<group>"; };
+		17A4BDAB2235B5200027253D /* ATCNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCNetworkingManager.swift; sourceTree = "<group>"; };
+		17A4BDB22235B5200027253D /* ATCFacebookUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFacebookUser.swift; sourceTree = "<group>"; };
+		17A4BDB32235B5200027253D /* ATCNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCNotification.swift; sourceTree = "<group>"; };
+		17A4BDB52235B5200027253D /* ATCLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChart.swift; sourceTree = "<group>"; };
+		17A4BDB62235B5200027253D /* ATCBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCBarChart.swift; sourceTree = "<group>"; };
+		17A4BDB72235B5200027253D /* ATCPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPieChart.swift; sourceTree = "<group>"; };
+		17A4BDB82235B5200027253D /* ATCText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCText.swift; sourceTree = "<group>"; };
+		17A4BDBA2235B5200027253D /* ATCDateRangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDateRangeModel.swift; sourceTree = "<group>"; };
+		17A4BDBB2235B5200027253D /* ATCImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCImage.swift; sourceTree = "<group>"; };
+		17A4BDBC2235B5200027253D /* ATCViewControllerContainerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCViewControllerContainerViewModel.swift; sourceTree = "<group>"; };
+		17A4BDBD2235B5200027253D /* ATCWalkthroughModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCWalkthroughModel.swift; sourceTree = "<group>"; };
+		17A4BDBE2235B5210027253D /* ATCDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDivider.swift; sourceTree = "<group>"; };
+		17A4BDBF2235B5210027253D /* ATCSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSearchBar.swift; sourceTree = "<group>"; };
+		17A4BDC12235B5210027253D /* ATCUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUser.swift; sourceTree = "<group>"; };
+		17A4BDC32235B5210027253D /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		17A4BDC42235B5210027253D /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		17A4BDC52235B5210027253D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		17A4BDC62235B5210027253D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		17A4BDC72235B5210027253D /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		17A4BDC82235B5210027253D /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		17A4BDC92235B5210027253D /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		17A4BDCA2235B5210027253D /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		17A4BDCB2235B5210027253D /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		17A4BDFE2235B5210027253D /* ATCLineChartAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChartAdapter.swift; sourceTree = "<group>"; };
+		17A4BDFF2235B5210027253D /* ATCPieChartAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPieChartAdapter.swift; sourceTree = "<group>"; };
+		17A4BE002235B5210027253D /* ATCTextRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCTextRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE012235B5210027253D /* ATCGridViewRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGridViewRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE022235B5210027253D /* ATCStoryAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCStoryAdapter.swift; sourceTree = "<group>"; };
+		17A4BE032235B5210027253D /* ATCDividerRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDividerRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE042235B5210027253D /* ATCSquareStoryRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSquareStoryRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE062235B5210027253D /* ATCDateRangeAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDateRangeAdapter.swift; sourceTree = "<group>"; };
+		17A4BE072235B5210027253D /* ATCViewControllerContainerRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCViewControllerContainerRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE082235B5210027253D /* ATCCarouselAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCarouselAdapter.swift; sourceTree = "<group>"; };
+		17A4BE092235B5210027253D /* ATCSearchBarAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSearchBarAdapter.swift; sourceTree = "<group>"; };
+		17A4BE0A2235B5210027253D /* ATCBarChartAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCBarChartAdapter.swift; sourceTree = "<group>"; };
+		17A4BE0B2235B5210027253D /* ATCImageRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCImageRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE0C2235B5210027253D /* ATCNotificationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCNotificationAdapter.swift; sourceTree = "<group>"; };
+		17A4BE102235B5210027253D /* UIViewController+ATCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ATCAdditions.swift"; sourceTree = "<group>"; };
+		17A4BE122235B5210027253D /* ATCHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCHostViewController.swift; sourceTree = "<group>"; };
+		17A4BE132235B5210027253D /* ATCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCNavigationController.swift; sourceTree = "<group>"; };
+		17A4BE142235B5210027253D /* ATCMenuItemCollectionViewCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCMenuItemCollectionViewCellProtocol.swift; sourceTree = "<group>"; };
+		17A4BE152235B5210027253D /* ATCDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDrawerController.swift; sourceTree = "<group>"; };
+		17A4BE162235B5210027253D /* ATCMenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCMenuTableViewController.xib; sourceTree = "<group>"; };
+		17A4BE172235B5210027253D /* ATCMenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCMenuCollectionViewController.swift; sourceTree = "<group>"; };
+		17A4BE182235B5210027253D /* ATCMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCMenuTableViewController.swift; sourceTree = "<group>"; };
+		17A4BE192235B5210027253D /* ATCMenuHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCMenuHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		17A4BE1A2235B5210027253D /* ATCMenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCMenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		17A4BE1B2235B5210027253D /* ATCMenuItemRowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCMenuItemRowAdapter.swift; sourceTree = "<group>"; };
+		17A4BE1D2235B5210027253D /* ATCWalkthroughViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCWalkthroughViewController.xib; sourceTree = "<group>"; };
+		17A4BE1E2235B5210027253D /* ATCWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCWalkthroughViewController.swift; sourceTree = "<group>"; };
+		17A4BE1F2235B5210027253D /* ATCClassicWalkthroughViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicWalkthroughViewController.xib; sourceTree = "<group>"; };
+		17A4BE202235B5210027253D /* ATCClassicWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicWalkthroughViewController.swift; sourceTree = "<group>"; };
+		17A4BE212235B5210027253D /* ATCGenericCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGenericCollectionViewController.swift; sourceTree = "<group>"; };
+		17A4BE232235B5210027253D /* ATCProfileScreenProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCProfileScreenProtocol.swift; sourceTree = "<group>"; };
+		17A4BE282235B5210027253D /* ATCLiquidCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLiquidCollectionViewLayout.swift; sourceTree = "<group>"; };
+		17A4BE292235B5210027253D /* ATCCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		17A4BE2A2235B5210027253D /* ATCRemoteHostContextProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCRemoteHostContextProvider.swift; sourceTree = "<group>"; };
+		17A4BE2B2235B5210027253D /* ATCWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCWebViewController.swift; sourceTree = "<group>"; };
+		17A4BE2C2235B5210027253D /* ATCContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCContactUsViewController.swift; sourceTree = "<group>"; };
+		17A4BE2D2235B5210027253D /* ATCGenericSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGenericSearchViewController.swift; sourceTree = "<group>"; };
+		17A4BE2E2235B5210027253D /* ATCViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCViewControllerFactory.swift; sourceTree = "<group>"; };
+		17A4BE4B2235B5210027253D /* ATCFacebookAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFacebookAPIManager.swift; sourceTree = "<group>"; };
+		17A4BE4C2235B5210027253D /* ATCAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCAPIManager.swift; sourceTree = "<group>"; };
+		17A4BEA42235B5210027253D /* ATCImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEA52235B5210027253D /* ATCStoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEA62235B5210027253D /* ATCGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEA72235B5210027253D /* ATCViewControllerContainerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCViewControllerContainerCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEA82235B5210027253D /* ATCImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEA92235B5210027253D /* ATCDividerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDividerCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEAA2235B5210027253D /* ATCPieChartCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCPieChartCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEAB2235B5210027253D /* ATCStoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCStoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEAC2235B5210027253D /* ATCSquareStoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCSquareStoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEAD2235B5210027253D /* ATCPieChartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPieChartCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEAE2235B5210027253D /* ATCSquareStoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSquareStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEAF2235B5210027253D /* ATCGridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCGridCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEB02235B5210027253D /* ATCTextCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCTextCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEB12235B5210027253D /* ATCLineChartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChartCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEB32235B5210027253D /* ATCBarChartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCBarChartCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEB42235B5210027253D /* ATCBarChartCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCBarChartCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEB52235B5210027253D /* ATCDividerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCDividerCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEB62235B5210027253D /* ATCViewControllerContainerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCViewControllerContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEB82235B5210027253D /* ATCCircledIconMenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCCircledIconMenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEB92235B5210027253D /* ATCCircledIconMenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCircledIconMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEBB2235B5210027253D /* ATCSearchBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSearchBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEBC2235B5210027253D /* ATCSearchBarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCSearchBarCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEC12235B5210027253D /* ATCNotificationCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCNotificationCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEC22235B5210027253D /* ATCDateRangeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDateRangeCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEC32235B5210027253D /* ATCSelectFilterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSelectFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEC42235B5210027253D /* ATCSelectFilterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCSelectFilterCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEC52235B5210027253D /* ATCNotificationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCNotificationCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEC62235B5210027253D /* ATCLineChartCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCLineChartCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BEC72235B5210027253D /* ATCTextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCTextCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEC82235B5210027253D /* ATCCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4BEC92235B5210027253D /* ATCDateRangeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCDateRangeCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BECA2235B5210027253D /* ATCCarouselCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCCarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4BECF2235B5210027253D /* ATCTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCTextField.swift; sourceTree = "<group>"; };
+		17A4BED42235B5210027253D /* Misc.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Misc.xcassets; sourceTree = "<group>"; };
+		17A4BED52235B5210027253D /* CoreImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CoreImages.xcassets; sourceTree = "<group>"; };
+		17A4BED82235B5210027253D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		17A4BED92235B5210027253D /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		17A4BEDA2235B5210027253D /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		17A4BEDB2235B5210027253D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		17A4BEDC2235B5210027253D /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		17A4BEDE2235B5210027253D /* FallingSkyCondOuObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyCondOuObl.otf; sourceTree = "<group>"; };
+		17A4BEDF2235B5210027253D /* FallingSkyCondOu.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyCondOu.otf; sourceTree = "<group>"; };
+		17A4BEE02235B5210027253D /* FallingSkyExt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyExt.otf; sourceTree = "<group>"; };
+		17A4BEE12235B5210027253D /* FallingSkyExtObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyExtObl.otf; sourceTree = "<group>"; };
+		17A4BEE22235B5210027253D /* FallingSkyCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyCond.otf; sourceTree = "<group>"; };
+		17A4BEE32235B5210027253D /* FallingSkyOuObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyOuObl.otf; sourceTree = "<group>"; };
+		17A4BEE42235B5210027253D /* FallingSkyObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyObl.otf; sourceTree = "<group>"; };
+		17A4BEE52235B5210027253D /* FallingSkyExtOu.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyExtOu.otf; sourceTree = "<group>"; };
+		17A4BEE62235B5210027253D /* FallingSkyBdObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyBdObl.otf; sourceTree = "<group>"; };
+		17A4BEE72235B5210027253D /* FallingSkyBd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyBd.otf; sourceTree = "<group>"; };
+		17A4BEE82235B5210027253D /* FallingSkyOu.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyOu.otf; sourceTree = "<group>"; };
+		17A4BEE92235B5210027253D /* FallingSkyBlk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyBlk.otf; sourceTree = "<group>"; };
+		17A4BEEA2235B5210027253D /* FallingSky.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSky.otf; sourceTree = "<group>"; };
+		17A4BEEB2235B5210027253D /* FallingSkyCondObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyCondObl.otf; sourceTree = "<group>"; };
+		17A4BEEC2235B5210027253D /* FallingSkyBlkObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyBlkObl.otf; sourceTree = "<group>"; };
+		17A4BEED2235B5210027253D /* FallingSkyExtOuObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FallingSkyExtOuObl.otf; sourceTree = "<group>"; };
+		17A4BEF52235B5210027253D /* ATCGenericLocalHeteroDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGenericLocalHeteroDataSource.swift; sourceTree = "<group>"; };
+		17A4BEF62235B5210027253D /* ATCPersistentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPersistentStore.swift; sourceTree = "<group>"; };
+		17A4BEF72235B5210027253D /* ATCGenericRestAPIDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGenericRestAPIDataSource.swift; sourceTree = "<group>"; };
+		17A4BEF82235B5210027253D /* ATCGenericLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGenericLocalDataSource.swift; sourceTree = "<group>"; };
+		17A4BEF92235B5210027253D /* ATCFirebaseSocialGraphManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFirebaseSocialGraphManager.swift; sourceTree = "<group>"; };
+		17A4BEFA2235B5210027253D /* ATCFirebaseLoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFirebaseLoginManager.swift; sourceTree = "<group>"; };
+		17A4BEFB2235B5210027253D /* ATCUIGenericConfigurationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUIGenericConfigurationProtocol.swift; sourceTree = "<group>"; };
+		17A4BF002235B5210027253D /* ATCFirebaseFirestoreDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFirebaseFirestoreDataSource.swift; sourceTree = "<group>"; };
+		17A4BF012235B5210027253D /* ATCFirebaseSearchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFirebaseSearchDataSource.swift; sourceTree = "<group>"; };
+		17A4BF032235B5210027253D /* UITabBarItem+ATCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+ATCAdditions.swift"; sourceTree = "<group>"; };
+		17A4BF042235B5210027253D /* TimeFormatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeFormatHelper.swift; sourceTree = "<group>"; };
+		17A4BF072235B5210027253D /* ATCDiskPersistenceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCDiskPersistenceStore.swift; sourceTree = "<group>"; };
+		17A4BF0A2235B5210027253D /* ATCClassicSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicSignUpViewController.xib; sourceTree = "<group>"; };
+		17A4BF0B2235B5210027253D /* ATCClassicSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicSignUpViewController.swift; sourceTree = "<group>"; };
+		17A4BF0C2235B5210027253D /* ATCClassicLandingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicLandingScreenViewController.xib; sourceTree = "<group>"; };
+		17A4BF0D2235B5210027253D /* ATCClassicLandingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicLandingScreenViewController.swift; sourceTree = "<group>"; };
+		17A4BF0E2235B5210027253D /* ATCClassicLoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicLoginScreenViewController.swift; sourceTree = "<group>"; };
+		17A4BF0F2235B5210027253D /* ATCClassicLoginScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicLoginScreenViewController.xib; sourceTree = "<group>"; };
+		17A4BF102235B5210027253D /* ATCOnboardingServerConfigurationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCOnboardingServerConfigurationProtocol.swift; sourceTree = "<group>"; };
+		17A4BF112235B5210027253D /* ATCOnboardingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCOnboardingCoordinator.swift; sourceTree = "<group>"; };
+		17A4BF122235B5210027253D /* ATCLoginScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLoginScreenManager.swift; sourceTree = "<group>"; };
+		17A4BF132235B5210027253D /* ATCLandingScreenProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLandingScreenProtocol.swift; sourceTree = "<group>"; };
+		17A4BF142235B5210027253D /* ATCSignUpScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSignUpScreenManager.swift; sourceTree = "<group>"; };
+		17A4BF152235B5210027253D /* ATCLandingScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLandingScreenManager.swift; sourceTree = "<group>"; };
+		17A4BF162235B5210027253D /* ATCLandingScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLandingScreenViewModel.swift; sourceTree = "<group>"; };
+		17A4BF172235B5210027253D /* ATCOnboardingConfigurationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCOnboardingConfigurationProtocol.swift; sourceTree = "<group>"; };
+		17A4BF182235B5210027253D /* UIImage+ATCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ATCAdditions.swift"; sourceTree = "<group>"; };
+		17A4BF192235B5210027253D /* ATCGenericUIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCGenericUIConfiguration.swift; sourceTree = "<group>"; };
+		17A4BF232235B5210027253D /* CalendarDateRangePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDateRangePickerCell.swift; sourceTree = "<group>"; };
+		17A4BF242235B5210027253D /* CalendarDateRangePickerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDateRangePickerHeaderView.swift; sourceTree = "<group>"; };
+		17A4BF252235B5210027253D /* CalendarDateRangePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDateRangePickerViewController.swift; sourceTree = "<group>"; };
+		17A4BF272235B5210027253D /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		17A4BF282235B5210027253D /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		17A4BF292235B5210027253D /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		17A4BF2A2235B5210027253D /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		17A4BF2B2235B5210027253D /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		17A4BF2C2235B5210027253D /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		17A4BF2D2235B5210027253D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		17A4BF2E2235B5210027253D /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		17A4BF2F2235B5210027253D /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		17A4BF302235B5210027253D /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		17A4BF312235B5210027253D /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		17A4BF322235B5210027253D /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		17A4BF332235B5210027253D /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		17A4BF342235B5210027253D /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		17A4BF352235B5210027253D /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		17A4BF362235B5210027253D /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		17A4BF372235B5210027253D /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		17A4BF382235B5210027253D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		17A4BF392235B5210027253D /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		17A4BF3A2235B5210027253D /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		17A4BF3B2235B5210027253D /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		17A4BF3C2235B5210027253D /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		17A4BF3D2235B5210027253D /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		17A4BF3E2235B5210027253D /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		17A4BF3F2235B5210027253D /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		17A4BF402235B5210027253D /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		17A4BF412235B5210027253D /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		17A4BF422235B5210027253D /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		17A4BF432235B5210027253D /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		17A4BF442235B5210027253D /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		17A4BF452235B5210027253D /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		17A4BF462235B5210027253D /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		17A4BF472235B5210027253D /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		17A4BF482235B5210027253D /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		17A4BF492235B5210027253D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		17A4BF562235B5210027253D /* ATCPushNotificationSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPushNotificationSender.swift; sourceTree = "<group>"; };
+		17A4BF572235B5210027253D /* ATCPushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPushNotificationManager.swift; sourceTree = "<group>"; };
+		17A4C12D2235C4C30027253D /* FinanceUIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceUIConfiguration.swift; sourceTree = "<group>"; };
+		17A4C12F2235C7590027253D /* FinanceHostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHostViewController.swift; sourceTree = "<group>"; };
+		17A4C1312235C7890027253D /* FinanceOnboardingConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceOnboardingConfiguration.swift; sourceTree = "<group>"; };
+		17A4C1332235CD0C0027253D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		17A4C1352235CE4D0027253D /* ATCFacebookPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCFacebookPost.swift; sourceTree = "<group>"; };
+		17A4C1372235CFF50027253D /* FinanceStaticDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStaticDataProvider.swift; sourceTree = "<group>"; };
+		17A4C13B2235D1A70027253D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17A4C13E2235DE1D0027253D /* ATCDatedLineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCDatedLineChartViewController.swift; sourceTree = "<group>"; };
+		17A4C13F2235DE1D0027253D /* ATCDatedLineChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATCDatedLineChartViewController.xib; sourceTree = "<group>"; };
+		17A4C1422235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCDatedChartDateRangeCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A4C1432235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATCDatedChartDateRangeCollectionViewCell.xib; sourceTree = "<group>"; };
+		17A4C1462235ED200027253D /* ATCHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCHomeViewController.swift; sourceTree = "<group>"; };
+		17C8456C224834CE007AE8B5 /* FinanceNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceNotificationsViewController.swift; sourceTree = "<group>"; };
+		17C8456E22483711007AE8B5 /* FinanceNotificationRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceNotificationRowAdapter.swift; sourceTree = "<group>"; };
+		17C8457022483ECB007AE8B5 /* FinanceAccountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAccountDetailsViewController.swift; sourceTree = "<group>"; };
+		17C845832249B08E007AE8B5 /* AssetSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSearchViewController.swift; sourceTree = "<group>"; };
+		17C845852249C751007AE8B5 /* BankAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountViewController.swift; sourceTree = "<group>"; };
+		17C845872249D730007AE8B5 /* AddBankAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountModel.swift; sourceTree = "<group>"; };
+		17C845892249D79A007AE8B5 /* AddBankAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		17C8458A2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddBankAccountCollectionViewCell.xib; sourceTree = "<group>"; };
+		17C8458D2249D828007AE8B5 /* AddBankAccountButtonRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountButtonRowAdapter.swift; sourceTree = "<group>"; };
+		17C8458F2249DBC0007AE8B5 /* ATCFinanceInstitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFinanceInstitution.swift; sourceTree = "<group>"; };
+		17C845912249DDF9007AE8B5 /* FinanceAddInstitutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAddInstitutionViewController.swift; sourceTree = "<group>"; };
+		17C845932249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceInstitutionCollectionViewCell.swift; sourceTree = "<group>"; };
+		17C845942249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceInstitutionCollectionViewCell.xib; sourceTree = "<group>"; };
+		17E8F51F2249E0C20030BB3E /* FinanceInstitutionRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceInstitutionRowAdapter.swift; sourceTree = "<group>"; };
+		17E8F582224C20410030BB3E /* ATCKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCKeyboardViewController.swift; sourceTree = "<group>"; };
+		17E8F584224C21D30030BB3E /* ATCKeyboardKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCKeyboardKey.swift; sourceTree = "<group>"; };
+		17E8F586224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCKeyboardKeyCollectionViewCell.swift; sourceTree = "<group>"; };
+		17E8F587224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATCKeyboardKeyCollectionViewCell.xib; sourceTree = "<group>"; };
+		17E8F58A224C22780030BB3E /* ATCKeyboardKeyRowAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCKeyboardKeyRowAdapter.swift; sourceTree = "<group>"; };
+		17E8F58D224C23630030BB3E /* AssetTradingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTradingViewController.swift; sourceTree = "<group>"; };
+		17E8F58E224C23630030BB3E /* AssetTradingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetTradingViewController.xib; sourceTree = "<group>"; };
+		17E8F591224DB6950030BB3E /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		595F4E65A988E7A28F49C23B /* Pods-FinanceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinanceApp/Pods-FinanceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		709583CC44069E4CB80FC189 /* Pods-FinanceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinanceApp/Pods-FinanceApp.release.xcconfig"; sourceTree = "<group>"; };
+		882038A864736D192EAEB3CC /* Pods_FinanceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinanceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A4BCFC2235B4DB0027253D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F55642DF909B3D92B6340B /* Pods_FinanceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172DF361223DAFBD00320E60 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				172DF37A223DCBA200320E60 /* Models */,
+				172DF362223DAFC800320E60 /* ATCFinanceDataSourceProviderProtocol.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		172DF36A223DC80300320E60 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				172DF36C223DC84000320E60 /* FinanceAssetCollectionViewCell.swift */,
+				172DF36D223DC84000320E60 /* FinanceAssetCollectionViewCell.xib */,
+				172DF370223DC94800320E60 /* CardHeaderCollectionViewCell.swift */,
+				172DF371223DC94800320E60 /* CardHeaderCollectionViewCell.xib */,
+				172DF374223DCA1100320E60 /* CardFooterCollectionViewCell.swift */,
+				172DF375223DCA1100320E60 /* CardFooterCollectionViewCell.xib */,
+				172DF378223DCB3F00320E60 /* FinanceAssetRowAdapter.swift */,
+				172DF37D223DCE3200320E60 /* FinanceNewsCollectionViewCell.swift */,
+				172DF37E223DCE3200320E60 /* FinanceNewsCollectionViewCell.xib */,
+				172DF381223DD2B300320E60 /* CardFooterRowAdapter.swift */,
+				172DF388223DD41A00320E60 /* CardHeaderRowAdapter.swift */,
+				172DF38A223DD4F900320E60 /* FinanceNewsRowAdapter.swift */,
+				172DF3B62242FE4400320E60 /* FinanceAccountCollectionViewCell.swift */,
+				172DF3B72242FE4400320E60 /* FinanceAccountCollectionViewCell.xib */,
+				172DF3BA2242FF7C00320E60 /* FinanceAccountRowAdapter.swift */,
+				17C8456E22483711007AE8B5 /* FinanceNotificationRowAdapter.swift */,
+				17C845892249D79A007AE8B5 /* AddBankAccountCollectionViewCell.swift */,
+				17C8458A2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.xib */,
+				17C8458D2249D828007AE8B5 /* AddBankAccountButtonRowAdapter.swift */,
+				17C845932249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.swift */,
+				17C845942249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.xib */,
+				17E8F51F2249E0C20030BB3E /* FinanceInstitutionRowAdapter.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		172DF37A223DCBA200320E60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3ED2247125800320E60 /* ATCFinanceNewsModel.swift */,
+				172DF37B223DCBDC00320E60 /* ATCFinanceAsset.swift */,
+				172DF3A92240A7E500320E60 /* ATCExpenseCategory.swift */,
+				172DF3B42242FD6400320E60 /* ATCFinanceAccount.swift */,
+				172DF3D72243444900320E60 /* ATCFinanceTransaction.swift */,
+				172DF3E22246EFF900320E60 /* ATCFinanceAssetPosition.swift */,
+				172DF3E42246F01000320E60 /* ATCFinanceAssetStats.swift */,
+				17C8458F2249DBC0007AE8B5 /* ATCFinanceInstitution.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		172DF383223DD34200320E60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				172DF384223DD35400320E60 /* CardFooterModel.swift */,
+				172DF386223DD38C00320E60 /* CardHeaderModel.swift */,
+				17C845872249D730007AE8B5 /* AddBankAccountModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		172DF38E223DD95A00320E60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3C32243208500320E60 /* CashViewController.swift */,
+				172DF3C42243208500320E60 /* InvestmentsViewController.swift */,
+				172DF3C22243208500320E60 /* LiabilitiesViewController.swift */,
+				172DF38F223DD98E00320E60 /* StocksPreviewViewController.swift */,
+				172DF391223E0BE900320E60 /* CyptoPreviewViewController.swift */,
+				172DF393223E0C0300320E60 /* NewsPreviewStoriesViewController.swift */,
+				172DF3C82243242700320E60 /* BankAccountsViewController.swift */,
+				172DF3CA224326BD00320E60 /* StocksHomeViewController.swift */,
+				172DF3CC2243279100320E60 /* StocksViewController.swift */,
+				172DF3CE22433FB300320E60 /* CryptoViewController.swift */,
+				172DF3D022433FDA00320E60 /* CryptoHomeViewController.swift */,
+				172DF3D22243413100320E60 /* NewsViewController.swift */,
+				17C8456C224834CE007AE8B5 /* FinanceNotificationsViewController.swift */,
+				17C8457022483ECB007AE8B5 /* FinanceAccountDetailsViewController.swift */,
+				17C845832249B08E007AE8B5 /* AssetSearchViewController.swift */,
+				17C845852249C751007AE8B5 /* BankAccountViewController.swift */,
+				17C845912249DDF9007AE8B5 /* FinanceAddInstitutionViewController.swift */,
+				17E8F591224DB6950030BB3E /* WatchlistViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		172DF39A223EDC0600320E60 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				172DF39E223EDC5C00320E60 /* UI */,
+				172DF39B223EDC5700320E60 /* ViewControllers */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		172DF39B223EDC5700320E60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				172DF39C223EDC5700320E60 /* ExpensesViewController.swift */,
+				172DF3A52240A6E800320E60 /* ExpenseCategoriesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		172DF39E223EDC5C00320E60 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				172DF39F223EDC5C00320E60 /* ExpensesPieChartRowAdapter.swift */,
+				172DF3A1223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.swift */,
+				172DF3A2223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.xib */,
+				172DF3AB2240A94B00320E60 /* ExpenseCategoryRowAdapter.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		172DF3AD2242F3E600320E60 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3B12242F4E600320E60 /* ViewControllers */,
+				172DF3AE2242F45700320E60 /* UI */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		172DF3AE2242F45700320E60 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3AF2242F47600320E60 /* PortfolioPieChartRowAdapter.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		172DF3B12242F4E600320E60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3B22242F50400320E60 /* PortfolioViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		172DF3D4224343B300320E60 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3D5224343C900320E60 /* TransactionsViewController.swift */,
+				172DF3D92243487000320E60 /* TransactionCollectionViewCell.swift */,
+				172DF3DA2243487000320E60 /* TransactionCollectionViewCell.xib */,
+				172DF3DD224349BE00320E60 /* TransactionsRowAdapter.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		172DF3DF2246E5DE00320E60 /* AssetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3EF2247205A00320E60 /* Models */,
+				172DF3E62246F17E00320E60 /* UI */,
+				172DF3E02246E5FA00320E60 /* AssetDetailsViewController.swift */,
+			);
+			path = AssetDetails;
+			sourceTree = "<group>";
+		};
+		172DF3E62246F17E00320E60 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3E72246F19700320E60 /* FinanceAssetPositionCollectionViewCell.swift */,
+				172DF3E82246F19700320E60 /* FinanceAssetPositionCollectionViewCell.xib */,
+				172DF3EB2246F77E00320E60 /* FinanceAssetPositionRowAdapter.swift */,
+				172DF3F2224720CA00320E60 /* AssetTradingCollectionViewCell.swift */,
+				172DF3F3224720CA00320E60 /* AssetTradingCollectionViewCell.xib */,
+				172DF3F6224721FF00320E60 /* AssetTradingUnitRowAdapter.swift */,
+				172DF3FA22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.swift */,
+				172DF3FB22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.xib */,
+				172DF3F822472C7800320E60 /* FinanceAssetStatsRowAdapter.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		172DF3EF2247205A00320E60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				172DF3F02247209000320E60 /* FinanceTradingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1737B05523307008005F2DFA /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+				1737B05623307008005F2DFA /* Firebase */,
+				1737B05823307008005F2DFA /* ATCSocialUserManagerProtocol.swift */,
+			);
+			path = UserManagement;
+			sourceTree = "<group>";
+		};
+		1737B05623307008005F2DFA /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				1737B05723307008005F2DFA /* ATCSocialFirebaseUserManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		17A4BCF62235B4DB0027253D = {
+			isa = PBXGroup;
+			children = (
+				17A4BD142235B5200027253D /* Core */,
+				17A4BD012235B4DB0027253D /* FinanceApp */,
+				17A4BD002235B4DB0027253D /* Products */,
+				759CC05AEFA2F59B80E595D8 /* Pods */,
+				CC2527B15C2942DA2BBA47A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17A4BD002235B4DB0027253D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BCFF2235B4DB0027253D /* FinanceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A4BD012235B4DB0027253D /* FinanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				17E8F58C224C233F0030BB3E /* Trading */,
+				172DF3DF2246E5DE00320E60 /* AssetDetails */,
+				172DF3D4224343B300320E60 /* Transactions */,
+				172DF3AD2242F3E600320E60 /* Portfolio */,
+				172DF39A223EDC0600320E60 /* Expenses */,
+				172DF38E223DD95A00320E60 /* ViewControllers */,
+				172DF383223DD34200320E60 /* Models */,
+				172DF36A223DC80300320E60 /* UI */,
+				17A4C13B2235D1A70027253D /* GoogleService-Info.plist */,
+				17A4BD022235B4DB0027253D /* AppDelegate.swift */,
+				17A4BD092235B4DE0027253D /* Assets.xcassets */,
+				17A4BD0B2235B4DE0027253D /* LaunchScreen.storyboard */,
+				17A4BD0E2235B4DE0027253D /* Info.plist */,
+				17A4C12D2235C4C30027253D /* FinanceUIConfiguration.swift */,
+				17A4C12F2235C7590027253D /* FinanceHostViewController.swift */,
+				17A4C1312235C7890027253D /* FinanceOnboardingConfiguration.swift */,
+				17A4C1332235CD0C0027253D /* SettingsViewController.swift */,
+				17A4C1372235CFF50027253D /* FinanceStaticDataProvider.swift */,
+				17A4C1462235ED200027253D /* ATCHomeViewController.swift */,
+				172DF35F223DAE6700320E60 /* FinanceDataSourceProvider.swift */,
+			);
+			path = FinanceApp;
+			sourceTree = "<group>";
+		};
+		17A4BD142235B5200027253D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1737B05523307008005F2DFA /* UserManagement */,
+				172DF361223DAFBD00320E60 /* Finance */,
+				17A4BD7F2235B5200027253D /* UIKit */,
+				17A4BDAA2235B5200027253D /* Networking */,
+				17A4BDAD2235B5200027253D /* Models */,
+				17A4BDC22235B5210027253D /* UIExtensions */,
+				17A4BDFC2235B5210027253D /* UIComponents */,
+				17A4BDFD2235B5210027253D /* Adapters */,
+				17A4BE0D2235B5210027253D /* ViewControllers */,
+				17A4BE4A2235B5210027253D /* API */,
+				17A4BEA12235B5210027253D /* Views */,
+				17A4BED32235B5210027253D /* Assets */,
+				17A4BEF22235B5210027253D /* Helpers */,
+				17A4BF1A2235B5210027253D /* ThirdParty */,
+				17A4BF552235B5210027253D /* PushNotifications */,
+			);
+			name = Core;
+			path = ../Core;
+			sourceTree = "<group>";
+		};
+		17A4BD7F2235B5200027253D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				17E8F581224C1FF60030BB3E /* Keyboard */,
+				17A4C13D2235DCAF0027253D /* Charts */,
+				17A4BD832235B5200027253D /* Carousels */,
+				17A4BD8E2235B5200027253D /* Buttons */,
+				17A4BD992235B5200027253D /* Profile */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		17A4BD832235B5200027253D /* Carousels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carousels;
+			sourceTree = "<group>";
+		};
+		17A4BD8E2235B5200027253D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BD8F2235B5200027253D /* InstaRoundImageButton.swift */,
+				17A4BD902235B5200027253D /* InstaBorderedButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		17A4BD992235B5200027253D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BD9A2235B5200027253D /* Cells */,
+				17A4BD9F2235B5200027253D /* Models */,
+				17A4BDA22235B5200027253D /* Adapters */,
+				17A4BDA52235B5200027253D /* Controllers */,
+				17A4BDA92235B5200027253D /* ATCProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		17A4BD9A2235B5200027253D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BD9B2235B5200027253D /* ATCProfileItemCollectionViewCell.swift */,
+				17A4BD9C2235B5200027253D /* ATCProfileItemCollectionViewCell.xib */,
+				17A4BD9D2235B5200027253D /* ATCProfileButtonCollectionViewCell.swift */,
+				17A4BD9E2235B5200027253D /* ATCProfileButtonCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		17A4BD9F2235B5200027253D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDA02235B5200027253D /* ATCProfileButtonItem.swift */,
+				17A4BDA12235B5200027253D /* ATCProfileItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17A4BDA22235B5200027253D /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDA32235B5200027253D /* ATCProfileButtonItemRowAdapter.swift */,
+				17A4BDA42235B5200027253D /* ATCProfileItemRowAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		17A4BDA52235B5200027253D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDA62235B5200027253D /* ATCProfileFirebaseUpdater.swift */,
+				17A4BDA82235B5200027253D /* ATCProfileUpdaterProtocol.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		17A4BDAA2235B5200027253D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDAB2235B5200027253D /* ATCNetworkingManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		17A4BDAD2235B5200027253D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17A4C1352235CE4D0027253D /* ATCFacebookPost.swift */,
+				17A4BDB22235B5200027253D /* ATCFacebookUser.swift */,
+				17A4BDB32235B5200027253D /* ATCNotification.swift */,
+				17A4BDB42235B5200027253D /* Charts */,
+				17A4BDB82235B5200027253D /* ATCText.swift */,
+				17A4BDBA2235B5200027253D /* ATCDateRangeModel.swift */,
+				17A4BDBB2235B5200027253D /* ATCImage.swift */,
+				17A4BDBC2235B5200027253D /* ATCViewControllerContainerViewModel.swift */,
+				17A4BDBD2235B5200027253D /* ATCWalkthroughModel.swift */,
+				17A4BDBE2235B5210027253D /* ATCDivider.swift */,
+				17A4BDBF2235B5210027253D /* ATCSearchBar.swift */,
+				17A4BDC12235B5210027253D /* ATCUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17A4BDB42235B5200027253D /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDB52235B5200027253D /* ATCLineChart.swift */,
+				17A4BDB62235B5200027253D /* ATCBarChart.swift */,
+				17A4BDB72235B5200027253D /* ATCPieChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		17A4BDC22235B5210027253D /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDC32235B5210027253D /* UIScrollView.swift */,
+				17A4BDC42235B5210027253D /* Date.swift */,
+				17A4BDC52235B5210027253D /* UIView.swift */,
+				17A4BDC62235B5210027253D /* UIColor.swift */,
+				17A4BDC72235B5210027253D /* UITextField.swift */,
+				17A4BDC82235B5210027253D /* String.swift */,
+				17A4BDC92235B5210027253D /* UIButton.swift */,
+				17A4BDCA2235B5210027253D /* UIImage.swift */,
+				17A4BDCB2235B5210027253D /* Double.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		17A4BDFC2235B5210027253D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		17A4BDFD2235B5210027253D /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BDFE2235B5210027253D /* ATCLineChartAdapter.swift */,
+				17A4BDFF2235B5210027253D /* ATCPieChartAdapter.swift */,
+				17A4BE002235B5210027253D /* ATCTextRowAdapter.swift */,
+				17A4BE012235B5210027253D /* ATCGridViewRowAdapter.swift */,
+				17A4BE022235B5210027253D /* ATCStoryAdapter.swift */,
+				17A4BE032235B5210027253D /* ATCDividerRowAdapter.swift */,
+				17A4BE042235B5210027253D /* ATCSquareStoryRowAdapter.swift */,
+				17A4BE062235B5210027253D /* ATCDateRangeAdapter.swift */,
+				17A4BE072235B5210027253D /* ATCViewControllerContainerRowAdapter.swift */,
+				17A4BE082235B5210027253D /* ATCCarouselAdapter.swift */,
+				17A4BE092235B5210027253D /* ATCSearchBarAdapter.swift */,
+				17A4BE0A2235B5210027253D /* ATCBarChartAdapter.swift */,
+				17A4BE0B2235B5210027253D /* ATCImageRowAdapter.swift */,
+				17A4BE0C2235B5210027253D /* ATCNotificationAdapter.swift */,
+				172DF368223DC1FD00320E60 /* ATCCardViewControllerContainerRowAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		17A4BE0D2235B5210027253D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BE102235B5210027253D /* UIViewController+ATCAdditions.swift */,
+				17A4BE112235B5210027253D /* Navigation */,
+				17A4BE1C2235B5210027253D /* Walkthrough */,
+				17A4BE212235B5210027253D /* ATCGenericCollectionViewController.swift */,
+				17A4BE222235B5210027253D /* Profile */,
+				17A4BE272235B5210027253D /* Layouts */,
+				17A4BE2A2235B5210027253D /* ATCRemoteHostContextProvider.swift */,
+				17A4BE2B2235B5210027253D /* ATCWebViewController.swift */,
+				17A4BE2C2235B5210027253D /* ATCContactUsViewController.swift */,
+				17A4BE2D2235B5210027253D /* ATCGenericSearchViewController.swift */,
+				17A4BE2E2235B5210027253D /* ATCViewControllerFactory.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17A4BE112235B5210027253D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BE122235B5210027253D /* ATCHostViewController.swift */,
+				17A4BE132235B5210027253D /* ATCNavigationController.swift */,
+				17A4BE142235B5210027253D /* ATCMenuItemCollectionViewCellProtocol.swift */,
+				17A4BE152235B5210027253D /* ATCDrawerController.swift */,
+				17A4BE162235B5210027253D /* ATCMenuTableViewController.xib */,
+				17A4BE172235B5210027253D /* ATCMenuCollectionViewController.swift */,
+				17A4BE182235B5210027253D /* ATCMenuTableViewController.swift */,
+				17A4BE192235B5210027253D /* ATCMenuHeaderTableViewCell.xib */,
+				17A4BE1A2235B5210027253D /* ATCMenuHeaderTableViewCell.swift */,
+				17A4BE1B2235B5210027253D /* ATCMenuItemRowAdapter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		17A4BE1C2235B5210027253D /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BE1D2235B5210027253D /* ATCWalkthroughViewController.xib */,
+				17A4BE1E2235B5210027253D /* ATCWalkthroughViewController.swift */,
+				17A4BE1F2235B5210027253D /* ATCClassicWalkthroughViewController.xib */,
+				17A4BE202235B5210027253D /* ATCClassicWalkthroughViewController.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		17A4BE222235B5210027253D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BE232235B5210027253D /* ATCProfileScreenProtocol.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		17A4BE272235B5210027253D /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BE282235B5210027253D /* ATCLiquidCollectionViewLayout.swift */,
+				17A4BE292235B5210027253D /* ATCCollectionViewFlowLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		17A4BE4A2235B5210027253D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BE4B2235B5210027253D /* ATCFacebookAPIManager.swift */,
+				17A4BE4C2235B5210027253D /* ATCAPIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		17A4BEA12235B5210027253D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEA32235B5210027253D /* Cells */,
+				17A4BECE2235B5210027253D /* Controls */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17A4BEA32235B5210027253D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEA42235B5210027253D /* ATCImageCollectionViewCell.swift */,
+				17A4BEA52235B5210027253D /* ATCStoryCollectionViewCell.swift */,
+				17A4BEA62235B5210027253D /* ATCGridCollectionViewCell.swift */,
+				17A4BEA72235B5210027253D /* ATCViewControllerContainerCollectionViewCell.xib */,
+				17A4BEA82235B5210027253D /* ATCImageCollectionViewCell.xib */,
+				17A4BEA92235B5210027253D /* ATCDividerCollectionViewCell.swift */,
+				17A4BEAA2235B5210027253D /* ATCPieChartCollectionViewCell.xib */,
+				17A4BEAB2235B5210027253D /* ATCStoryCollectionViewCell.xib */,
+				17A4BEAC2235B5210027253D /* ATCSquareStoryCollectionViewCell.xib */,
+				17A4BEAD2235B5210027253D /* ATCPieChartCollectionViewCell.swift */,
+				17A4BEAE2235B5210027253D /* ATCSquareStoryCollectionViewCell.swift */,
+				17A4BEAF2235B5210027253D /* ATCGridCollectionViewCell.xib */,
+				17A4BEB02235B5210027253D /* ATCTextCollectionViewCell.xib */,
+				17A4BEB12235B5210027253D /* ATCLineChartCollectionViewCell.swift */,
+				17A4BEB22235B5210027253D /* Charts */,
+				17A4BEB52235B5210027253D /* ATCDividerCollectionViewCell.xib */,
+				17A4BEB62235B5210027253D /* ATCViewControllerContainerCollectionViewCell.swift */,
+				17A4BEB72235B5210027253D /* MenuCells */,
+				17A4BEBA2235B5210027253D /* Search */,
+				17A4BEC12235B5210027253D /* ATCNotificationCollectionViewCell.xib */,
+				17A4BEC22235B5210027253D /* ATCDateRangeCollectionViewCell.swift */,
+				17A4BEC32235B5210027253D /* ATCSelectFilterCollectionViewCell.swift */,
+				17A4BEC42235B5210027253D /* ATCSelectFilterCollectionViewCell.xib */,
+				17A4BEC52235B5210027253D /* ATCNotificationCollectionViewCell.swift */,
+				17A4BEC62235B5210027253D /* ATCLineChartCollectionViewCell.xib */,
+				17A4BEC72235B5210027253D /* ATCTextCollectionViewCell.swift */,
+				17A4BEC82235B5210027253D /* ATCCarouselCollectionViewCell.swift */,
+				17A4BEC92235B5210027253D /* ATCDateRangeCollectionViewCell.xib */,
+				17A4BECA2235B5210027253D /* ATCCarouselCollectionViewCell.xib */,
+				172DF364223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.swift */,
+				172DF365223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		17A4BEB22235B5210027253D /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEB32235B5210027253D /* ATCBarChartCollectionViewCell.swift */,
+				17A4BEB42235B5210027253D /* ATCBarChartCollectionViewCell.xib */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		17A4BEB72235B5210027253D /* MenuCells */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEB82235B5210027253D /* ATCCircledIconMenuCollectionViewCell.xib */,
+				17A4BEB92235B5210027253D /* ATCCircledIconMenuCollectionViewCell.swift */,
+			);
+			path = MenuCells;
+			sourceTree = "<group>";
+		};
+		17A4BEBA2235B5210027253D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEBB2235B5210027253D /* ATCSearchBarCollectionViewCell.swift */,
+				17A4BEBC2235B5210027253D /* ATCSearchBarCollectionViewCell.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		17A4BECE2235B5210027253D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BECF2235B5210027253D /* ATCTextField.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		17A4BED32235B5210027253D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BED42235B5210027253D /* Misc.xcassets */,
+				17A4BED52235B5210027253D /* CoreImages.xcassets */,
+				17A4BED62235B5210027253D /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		17A4BED62235B5210027253D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BED72235B5210027253D /* NotoSans */,
+				17A4BEDD2235B5210027253D /* Falling-Sky-Extended */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		17A4BED72235B5210027253D /* NotoSans */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BED82235B5210027253D /* NotoSans-Regular.ttf */,
+				17A4BED92235B5210027253D /* NotoSans-Bold.ttf */,
+				17A4BEDA2235B5210027253D /* NotoSans-BoldItalic.ttf */,
+				17A4BEDB2235B5210027253D /* LICENSE.txt */,
+				17A4BEDC2235B5210027253D /* NotoSans-Italic.ttf */,
+			);
+			path = NotoSans;
+			sourceTree = "<group>";
+		};
+		17A4BEDD2235B5210027253D /* Falling-Sky-Extended */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEDE2235B5210027253D /* FallingSkyCondOuObl.otf */,
+				17A4BEDF2235B5210027253D /* FallingSkyCondOu.otf */,
+				17A4BEE02235B5210027253D /* FallingSkyExt.otf */,
+				17A4BEE12235B5210027253D /* FallingSkyExtObl.otf */,
+				17A4BEE22235B5210027253D /* FallingSkyCond.otf */,
+				17A4BEE32235B5210027253D /* FallingSkyOuObl.otf */,
+				17A4BEE42235B5210027253D /* FallingSkyObl.otf */,
+				17A4BEE52235B5210027253D /* FallingSkyExtOu.otf */,
+				17A4BEE62235B5210027253D /* FallingSkyBdObl.otf */,
+				17A4BEE72235B5210027253D /* FallingSkyBd.otf */,
+				17A4BEE82235B5210027253D /* FallingSkyOu.otf */,
+				17A4BEE92235B5210027253D /* FallingSkyBlk.otf */,
+				17A4BEEA2235B5210027253D /* FallingSky.otf */,
+				17A4BEEB2235B5210027253D /* FallingSkyCondObl.otf */,
+				17A4BEEC2235B5210027253D /* FallingSkyBlkObl.otf */,
+				17A4BEED2235B5210027253D /* FallingSkyExtOuObl.otf */,
+			);
+			path = "Falling-Sky-Extended";
+			sourceTree = "<group>";
+		};
+		17A4BEF22235B5210027253D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BEF52235B5210027253D /* ATCGenericLocalHeteroDataSource.swift */,
+				17A4BEF62235B5210027253D /* ATCPersistentStore.swift */,
+				17A4BEF72235B5210027253D /* ATCGenericRestAPIDataSource.swift */,
+				17A4BEF82235B5210027253D /* ATCGenericLocalDataSource.swift */,
+				17A4BEF92235B5210027253D /* ATCFirebaseSocialGraphManager.swift */,
+				17A4BEFA2235B5210027253D /* ATCFirebaseLoginManager.swift */,
+				17A4BEFB2235B5210027253D /* ATCUIGenericConfigurationProtocol.swift */,
+				17A4BEFD2235B5210027253D /* Firebase */,
+				17A4BF032235B5210027253D /* UITabBarItem+ATCAdditions.swift */,
+				17A4BF042235B5210027253D /* TimeFormatHelper.swift */,
+				17A4BF072235B5210027253D /* ATCDiskPersistenceStore.swift */,
+				17A4BF082235B5210027253D /* Onboarding */,
+				17A4BF182235B5210027253D /* UIImage+ATCAdditions.swift */,
+				17A4BF192235B5210027253D /* ATCGenericUIConfiguration.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		17A4BEFD2235B5210027253D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF002235B5210027253D /* ATCFirebaseFirestoreDataSource.swift */,
+				17A4BF012235B5210027253D /* ATCFirebaseSearchDataSource.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		17A4BF082235B5210027253D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF092235B5210027253D /* UI */,
+				17A4BF102235B5210027253D /* ATCOnboardingServerConfigurationProtocol.swift */,
+				17A4BF112235B5210027253D /* ATCOnboardingCoordinator.swift */,
+				17A4BF122235B5210027253D /* ATCLoginScreenManager.swift */,
+				17A4BF132235B5210027253D /* ATCLandingScreenProtocol.swift */,
+				17A4BF142235B5210027253D /* ATCSignUpScreenManager.swift */,
+				17A4BF152235B5210027253D /* ATCLandingScreenManager.swift */,
+				17A4BF162235B5210027253D /* ATCLandingScreenViewModel.swift */,
+				17A4BF172235B5210027253D /* ATCOnboardingConfigurationProtocol.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		17A4BF092235B5210027253D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF0A2235B5210027253D /* ATCClassicSignUpViewController.xib */,
+				17A4BF0B2235B5210027253D /* ATCClassicSignUpViewController.swift */,
+				17A4BF0C2235B5210027253D /* ATCClassicLandingScreenViewController.xib */,
+				17A4BF0D2235B5210027253D /* ATCClassicLandingScreenViewController.swift */,
+				17A4BF0E2235B5210027253D /* ATCClassicLoginScreenViewController.swift */,
+				17A4BF0F2235B5210027253D /* ATCClassicLoginScreenViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		17A4BF1A2235B5210027253D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF222235B5210027253D /* CalendarDateRangePickerViewController */,
+				17A4BF262235B5210027253D /* SnapKit */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		17A4BF222235B5210027253D /* CalendarDateRangePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF232235B5210027253D /* CalendarDateRangePickerCell.swift */,
+				17A4BF242235B5210027253D /* CalendarDateRangePickerHeaderView.swift */,
+				17A4BF252235B5210027253D /* CalendarDateRangePickerViewController.swift */,
+			);
+			path = CalendarDateRangePickerViewController;
+			sourceTree = "<group>";
+		};
+		17A4BF262235B5210027253D /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF272235B5210027253D /* ConstraintMultiplierTarget.swift */,
+				17A4BF282235B5210027253D /* LayoutConstraintItem.swift */,
+				17A4BF292235B5210027253D /* ConstraintDescription.swift */,
+				17A4BF2A2235B5210027253D /* ConstraintMakerPriortizable.swift */,
+				17A4BF2B2235B5210027253D /* ConstraintAttributes.swift */,
+				17A4BF2C2235B5210027253D /* ConstraintViewDSL.swift */,
+				17A4BF2D2235B5210027253D /* ConstraintPriorityTarget.swift */,
+				17A4BF2E2235B5210027253D /* ConstraintInsets.swift */,
+				17A4BF2F2235B5210027253D /* ConstraintMakerFinalizable.swift */,
+				17A4BF302235B5210027253D /* ConstraintDSL.swift */,
+				17A4BF312235B5210027253D /* ConstraintMakerExtendable.swift */,
+				17A4BF322235B5210027253D /* ConstraintPriority.swift */,
+				17A4BF332235B5210027253D /* ConstraintInsetTarget.swift */,
+				17A4BF342235B5210027253D /* SnapKit.h */,
+				17A4BF352235B5210027253D /* ConstraintConfig.swift */,
+				17A4BF362235B5210027253D /* UILayoutSupport+Extensions.swift */,
+				17A4BF372235B5210027253D /* ConstraintView.swift */,
+				17A4BF382235B5210027253D /* ConstraintLayoutGuide.swift */,
+				17A4BF392235B5210027253D /* ConstraintLayoutSupport.swift */,
+				17A4BF3A2235B5210027253D /* Typealiases.swift */,
+				17A4BF3B2235B5210027253D /* ConstraintConstantTarget.swift */,
+				17A4BF3C2235B5210027253D /* ConstraintOffsetTarget.swift */,
+				17A4BF3D2235B5210027253D /* ConstraintMakerEditable.swift */,
+				17A4BF3E2235B5210027253D /* ConstraintMaker.swift */,
+				17A4BF3F2235B5210027253D /* ConstraintRelation.swift */,
+				17A4BF402235B5210027253D /* ConstraintLayoutGuideDSL.swift */,
+				17A4BF412235B5210027253D /* ConstraintView+Extensions.swift */,
+				17A4BF422235B5210027253D /* ConstraintItem.swift */,
+				17A4BF432235B5210027253D /* Constraint.swift */,
+				17A4BF442235B5210027253D /* Debugging.swift */,
+				17A4BF452235B5210027253D /* ConstraintRelatableTarget.swift */,
+				17A4BF462235B5210027253D /* LayoutConstraint.swift */,
+				17A4BF472235B5210027253D /* ConstraintLayoutGuide+Extensions.swift */,
+				17A4BF482235B5210027253D /* ConstraintLayoutSupportDSL.swift */,
+				17A4BF492235B5210027253D /* ConstraintMakerRelatable.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		17A4BF552235B5210027253D /* PushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				17A4BF562235B5210027253D /* ATCPushNotificationSender.swift */,
+				17A4BF572235B5210027253D /* ATCPushNotificationManager.swift */,
+			);
+			path = PushNotifications;
+			sourceTree = "<group>";
+		};
+		17A4C13D2235DCAF0027253D /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				17A4C13E2235DE1D0027253D /* ATCDatedLineChartViewController.swift */,
+				17A4C13F2235DE1D0027253D /* ATCDatedLineChartViewController.xib */,
+				17A4C1422235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.swift */,
+				17A4C1432235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.xib */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		17E8F581224C1FF60030BB3E /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				17E8F582224C20410030BB3E /* ATCKeyboardViewController.swift */,
+				17E8F584224C21D30030BB3E /* ATCKeyboardKey.swift */,
+				17E8F586224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.swift */,
+				17E8F587224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.xib */,
+				17E8F58A224C22780030BB3E /* ATCKeyboardKeyRowAdapter.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		17E8F58C224C233F0030BB3E /* Trading */ = {
+			isa = PBXGroup;
+			children = (
+				17E8F58D224C23630030BB3E /* AssetTradingViewController.swift */,
+				17E8F58E224C23630030BB3E /* AssetTradingViewController.xib */,
+			);
+			path = Trading;
+			sourceTree = "<group>";
+		};
+		759CC05AEFA2F59B80E595D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595F4E65A988E7A28F49C23B /* Pods-FinanceApp.debug.xcconfig */,
+				709583CC44069E4CB80FC189 /* Pods-FinanceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC2527B15C2942DA2BBA47A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882038A864736D192EAEB3CC /* Pods_FinanceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A4BCFE2235B4DB0027253D /* FinanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A4BD112235B4DE0027253D /* Build configuration list for PBXNativeTarget "FinanceApp" */;
+			buildPhases = (
+				A4F29BA64551D5CD0BF36107 /* [CP] Check Pods Manifest.lock */,
+				17A4BCFB2235B4DB0027253D /* Sources */,
+				17A4BCFC2235B4DB0027253D /* Frameworks */,
+				17A4BCFD2235B4DB0027253D /* Resources */,
+				B21683F6E949313C18F78ACD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceApp;
+			productName = FinanceApp;
+			productReference = 17A4BCFF2235B4DB0027253D /* FinanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A4BCF72235B4DB0027253D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Instamobile;
+				TargetAttributes = {
+					17A4BCFE2235B4DB0027253D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 17A4BCFA2235B4DB0027253D /* Build configuration list for PBXProject "FinanceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A4BCF62235B4DB0027253D;
+			productRefGroup = 17A4BD002235B4DB0027253D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A4BCFE2235B4DB0027253D /* FinanceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A4BCFD2235B4DB0027253D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172DF377223DCA1100320E60 /* CardFooterCollectionViewCell.xib in Resources */,
+				17A4C0CA2235B5210027253D /* FallingSkyBlkObl.otf in Resources */,
+				17A4C0C92235B5210027253D /* FallingSkyCondObl.otf in Resources */,
+				17A4C0A72235B5210027253D /* ATCSelectFilterCollectionViewCell.xib in Resources */,
+				17A4C0E72235B5220027253D /* ATCClassicLoginScreenViewController.xib in Resources */,
+				17A4BFBC2235B5210027253D /* ATCProfileButtonCollectionViewCell.xib in Resources */,
+				17A4C0C82235B5210027253D /* FallingSky.otf in Resources */,
+				17A4C0E22235B5220027253D /* ATCClassicSignUpViewController.xib in Resources */,
+				17A4BFBA2235B5210027253D /* ATCProfileItemCollectionViewCell.xib in Resources */,
+				17A4C0C22235B5210027253D /* FallingSkyObl.otf in Resources */,
+				17A4C0912235B5210027253D /* ATCPieChartCollectionViewCell.xib in Resources */,
+				172DF3DC2243487000320E60 /* TransactionCollectionViewCell.xib in Resources */,
+				172DF3B92242FE4400320E60 /* FinanceAccountCollectionViewCell.xib in Resources */,
+				17A4C0C72235B5210027253D /* FallingSkyBlk.otf in Resources */,
+				17A4C0C42235B5210027253D /* FallingSkyBdObl.otf in Resources */,
+				172DF380223DCE3200320E60 /* FinanceNewsCollectionViewCell.xib in Resources */,
+				17A4C0B92235B5210027253D /* NotoSans-BoldItalic.ttf in Resources */,
+				17A4C0A02235B5210027253D /* ATCSearchBarCollectionViewCell.xib in Resources */,
+				17A4C0BC2235B5210027253D /* FallingSkyCondOuObl.otf in Resources */,
+				17A4C0A92235B5210027253D /* ATCLineChartCollectionViewCell.xib in Resources */,
+				17A4C0B82235B5210027253D /* NotoSans-Bold.ttf in Resources */,
+				17A4C0A42235B5210027253D /* ATCNotificationCollectionViewCell.xib in Resources */,
+				17A4C0962235B5210027253D /* ATCGridCollectionViewCell.xib in Resources */,
+				172DF373223DC94800320E60 /* CardHeaderCollectionViewCell.xib in Resources */,
+				172DF3FD22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.xib in Resources */,
+				172DF367223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.xib in Resources */,
+				17A4C01D2235B5210027253D /* ATCMenuTableViewController.xib in Resources */,
+				17A4C0BD2235B5210027253D /* FallingSkyCondOu.otf in Resources */,
+				17A4C0C02235B5210027253D /* FallingSkyCond.otf in Resources */,
+				17A4C0252235B5210027253D /* ATCClassicWalkthroughViewController.xib in Resources */,
+				17A4C0C52235B5210027253D /* FallingSkyBd.otf in Resources */,
+				17A4C09A2235B5210027253D /* ATCBarChartCollectionViewCell.xib in Resources */,
+				17A4C0BE2235B5210027253D /* FallingSkyExt.otf in Resources */,
+				17A4C0972235B5210027253D /* ATCTextCollectionViewCell.xib in Resources */,
+				17A4C1412235DE1D0027253D /* ATCDatedLineChartViewController.xib in Resources */,
+				17A4C0B52235B5210027253D /* Misc.xcassets in Resources */,
+				17E8F589224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.xib in Resources */,
+				17A4C09B2235B5210027253D /* ATCDividerCollectionViewCell.xib in Resources */,
+				17C845962249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.xib in Resources */,
+				17A4C0C62235B5210027253D /* FallingSkyOu.otf in Resources */,
+				172DF36F223DC84000320E60 /* FinanceAssetCollectionViewCell.xib in Resources */,
+				17A4C0C32235B5210027253D /* FallingSkyExtOu.otf in Resources */,
+				17A4C0232235B5210027253D /* ATCWalkthroughViewController.xib in Resources */,
+				172DF3F5224720CA00320E60 /* AssetTradingCollectionViewCell.xib in Resources */,
+				17A4C0922235B5210027253D /* ATCStoryCollectionViewCell.xib in Resources */,
+				17C8458C2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.xib in Resources */,
+				17E8F590224C23630030BB3E /* AssetTradingViewController.xib in Resources */,
+				17A4C0CB2235B5210027253D /* FallingSkyExtOuObl.otf in Resources */,
+				172DF3EA2246F19700320E60 /* FinanceAssetPositionCollectionViewCell.xib in Resources */,
+				17A4C0E42235B5220027253D /* ATCClassicLandingScreenViewController.xib in Resources */,
+				17A4C08F2235B5210027253D /* ATCImageCollectionViewCell.xib in Resources */,
+				17A4BD0D2235B4DE0027253D /* LaunchScreen.storyboard in Resources */,
+				17A4C0BA2235B5210027253D /* LICENSE.txt in Resources */,
+				17A4C13C2235D1A70027253D /* GoogleService-Info.plist in Resources */,
+				17A4C0AD2235B5210027253D /* ATCCarouselCollectionViewCell.xib in Resources */,
+				17A4C0BF2235B5210027253D /* FallingSkyExtObl.otf in Resources */,
+				17A4C1452235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.xib in Resources */,
+				172DF3A4223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.xib in Resources */,
+				17A4C0AC2235B5210027253D /* ATCDateRangeCollectionViewCell.xib in Resources */,
+				17A4C08E2235B5210027253D /* ATCViewControllerContainerCollectionViewCell.xib in Resources */,
+				17A4C0BB2235B5210027253D /* NotoSans-Italic.ttf in Resources */,
+				17A4C09D2235B5210027253D /* ATCCircledIconMenuCollectionViewCell.xib in Resources */,
+				17A4C0932235B5210027253D /* ATCSquareStoryCollectionViewCell.xib in Resources */,
+				17A4BD0A2235B4DE0027253D /* Assets.xcassets in Resources */,
+				17A4C0B72235B5210027253D /* NotoSans-Regular.ttf in Resources */,
+				17A4C0202235B5210027253D /* ATCMenuHeaderTableViewCell.xib in Resources */,
+				17A4C0B62235B5210027253D /* CoreImages.xcassets in Resources */,
+				17A4C0C12235B5210027253D /* FallingSkyOuObl.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4F29BA64551D5CD0BF36107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinanceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21683F6E949313C18F78ACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinanceApp/Pods-FinanceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinanceApp/Pods-FinanceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinanceApp/Pods-FinanceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A4BCFB2235B4DB0027253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172DF3F12247209000320E60 /* FinanceTradingModel.swift in Sources */,
+				17E8F58B224C22780030BB3E /* ATCKeyboardKeyRowAdapter.swift in Sources */,
+				17A4C0472235B5210027253D /* ATCFacebookAPIManager.swift in Sources */,
+				17A4BFC12235B5210027253D /* ATCProfileFirebaseUpdater.swift in Sources */,
+				17A4C0952235B5210027253D /* ATCSquareStoryCollectionViewCell.swift in Sources */,
+				17C8458E2249D828007AE8B5 /* AddBankAccountButtonRowAdapter.swift in Sources */,
+				17C845882249D730007AE8B5 /* AddBankAccountModel.swift in Sources */,
+				172DF36E223DC84000320E60 /* FinanceAssetCollectionViewCell.swift in Sources */,
+				17A4C0A52235B5210027253D /* ATCDateRangeCollectionViewCell.swift in Sources */,
+				17A4C0FE2235B5220027253D /* ConstraintMakerPriortizable.swift in Sources */,
+				17C845842249B08E007AE8B5 /* AssetSearchViewController.swift in Sources */,
+				17A4C00D2235B5210027253D /* ATCDividerRowAdapter.swift in Sources */,
+				17A4C10F2235B5220027253D /* ConstraintOffsetTarget.swift in Sources */,
+				17A4C1382235CFF50027253D /* FinanceStaticDataProvider.swift in Sources */,
+				17A4C1182235B5220027253D /* ConstraintRelatableTarget.swift in Sources */,
+				172DF363223DAFC800320E60 /* ATCFinanceDataSourceProviderProtocol.swift in Sources */,
+				172DF3F4224720CA00320E60 /* AssetTradingCollectionViewCell.swift in Sources */,
+				17A4C12E2235C4C30027253D /* FinanceUIConfiguration.swift in Sources */,
+				17A4C0EE2235B5220027253D /* ATCLandingScreenViewModel.swift in Sources */,
+				17E8F58F224C23630030BB3E /* AssetTradingViewController.swift in Sources */,
+				172DF387223DD38C00320E60 /* CardHeaderModel.swift in Sources */,
+				17A4C1092235B5220027253D /* UILayoutSupport+Extensions.swift in Sources */,
+				17A4C0D42235B5220027253D /* ATCFirebaseSocialGraphManager.swift in Sources */,
+				172DF37C223DCBDC00320E60 /* ATCFinanceAsset.swift in Sources */,
+				172DF3C92243242700320E60 /* BankAccountsViewController.swift in Sources */,
+				17A4C02D2235B5210027253D /* ATCRemoteHostContextProvider.swift in Sources */,
+				172DF3E92246F19700320E60 /* FinanceAssetPositionCollectionViewCell.swift in Sources */,
+				17A4C1322235C7890027253D /* FinanceOnboardingConfiguration.swift in Sources */,
+				17A4C0DB2235B5220027253D /* ATCFirebaseSearchDataSource.swift in Sources */,
+				17A4C0AB2235B5210027253D /* ATCCarouselCollectionViewCell.swift in Sources */,
+				17A4C0F92235B5220027253D /* CalendarDateRangePickerHeaderView.swift in Sources */,
+				17A4C0F82235B5220027253D /* CalendarDateRangePickerCell.swift in Sources */,
+				17A4BFBD2235B5210027253D /* ATCProfileButtonItem.swift in Sources */,
+				17A4C0132235B5210027253D /* ATCSearchBarAdapter.swift in Sources */,
+				172DF3DB2243487000320E60 /* TransactionCollectionViewCell.swift in Sources */,
+				172DF3C72243208500320E60 /* InvestmentsViewController.swift in Sources */,
+				17A4C0E82235B5220027253D /* ATCOnboardingServerConfigurationProtocol.swift in Sources */,
+				17A4C00A2235B5210027253D /* ATCTextRowAdapter.swift in Sources */,
+				17A4BFC02235B5210027253D /* ATCProfileItemRowAdapter.swift in Sources */,
+				17A4C0D62235B5220027253D /* ATCUIGenericConfigurationProtocol.swift in Sources */,
+				17A4C0112235B5210027253D /* ATCViewControllerContainerRowAdapter.swift in Sources */,
+				17A4C0D32235B5220027253D /* ATCGenericLocalDataSource.swift in Sources */,
+				17A4C1102235B5220027253D /* ConstraintMakerEditable.swift in Sources */,
+				17A4C0162235B5210027253D /* ATCNotificationAdapter.swift in Sources */,
+				17C845952249DE7C007AE8B5 /* FinanceInstitutionCollectionViewCell.swift in Sources */,
+				17A4C0D22235B5210027253D /* ATCGenericRestAPIDataSource.swift in Sources */,
+				17A4BFD92235B5210027253D /* Date.swift in Sources */,
+				17A4C0AA2235B5210027253D /* ATCTextCollectionViewCell.swift in Sources */,
+				172DF3EE2247125900320E60 /* ATCFinanceNewsModel.swift in Sources */,
+				17A4BFCD2235B5210027253D /* ATCPieChart.swift in Sources */,
+				17A4C1192235B5220027253D /* LayoutConstraint.swift in Sources */,
+				17A4C0312235B5210027253D /* ATCViewControllerFactory.swift in Sources */,
+				17A4C01E2235B5210027253D /* ATCMenuCollectionViewController.swift in Sources */,
+				172DF37F223DCE3200320E60 /* FinanceNewsCollectionViewCell.swift in Sources */,
+				17A4C1112235B5220027253D /* ConstraintMaker.swift in Sources */,
+				172DF3D122433FDA00320E60 /* CryptoHomeViewController.swift in Sources */,
+				172DF3E12246E5FA00320E60 /* AssetDetailsViewController.swift in Sources */,
+				17A4BFD32235B5210027253D /* ATCWalkthroughModel.swift in Sources */,
+				17A4C09E2235B5210027253D /* ATCCircledIconMenuCollectionViewCell.swift in Sources */,
+				17A4C11B2235B5220027253D /* ConstraintLayoutSupportDSL.swift in Sources */,
+				17A4C0FB2235B5220027253D /* ConstraintMultiplierTarget.swift in Sources */,
+				17A4BFDD2235B5210027253D /* String.swift in Sources */,
+				172DF3C52243208500320E60 /* LiabilitiesViewController.swift in Sources */,
+				17A4C11C2235B5220027253D /* ConstraintMakerRelatable.swift in Sources */,
+				172DF369223DC1FD00320E60 /* ATCCardViewControllerContainerRowAdapter.swift in Sources */,
+				17A4C1062235B5220027253D /* ConstraintPriority.swift in Sources */,
+				172DF3B32242F50400320E60 /* PortfolioViewController.swift in Sources */,
+				17A4C0ED2235B5220027253D /* ATCLandingScreenManager.swift in Sources */,
+				17A4BFDA2235B5210027253D /* UIView.swift in Sources */,
+				17A4BFCE2235B5210027253D /* ATCText.swift in Sources */,
+				17A4C01C2235B5210027253D /* ATCDrawerController.swift in Sources */,
+				172DF3A0223EDC5C00320E60 /* ExpensesPieChartRowAdapter.swift in Sources */,
+				17A4C1052235B5220027253D /* ConstraintMakerExtendable.swift in Sources */,
+				17A4C1262235B5220027253D /* ATCPushNotificationManager.swift in Sources */,
+				172DF389223DD41A00320E60 /* CardHeaderRowAdapter.swift in Sources */,
+				17A4C0E12235B5220027253D /* ATCDiskPersistenceStore.swift in Sources */,
+				17A4C08D2235B5210027253D /* ATCGridCollectionViewCell.swift in Sources */,
+				17A4C02F2235B5210027253D /* ATCContactUsViewController.swift in Sources */,
+				17A4BFC92235B5210027253D /* ATCFacebookUser.swift in Sources */,
+				17A4C10E2235B5220027253D /* ConstraintConstantTarget.swift in Sources */,
+				172DF3B82242FE4400320E60 /* FinanceAccountCollectionViewCell.swift in Sources */,
+				17E8F588224C21FB0030BB3E /* ATCKeyboardKeyCollectionViewCell.swift in Sources */,
+				17A4BFE02235B5210027253D /* Double.swift in Sources */,
+				17A4C0E62235B5220027253D /* ATCClassicLoginScreenViewController.swift in Sources */,
+				17A4C0DD2235B5220027253D /* UITabBarItem+ATCAdditions.swift in Sources */,
+				172DF3E52246F01000320E60 /* ATCFinanceAssetStats.swift in Sources */,
+				17A4C01A2235B5210027253D /* ATCNavigationController.swift in Sources */,
+				17A4C0FF2235B5220027253D /* ConstraintAttributes.swift in Sources */,
+				17A4BFDB2235B5210027253D /* UIColor.swift in Sources */,
+				17A4C0082235B5210027253D /* ATCLineChartAdapter.swift in Sources */,
+				17A4BFB72235B5210027253D /* InstaBorderedButton.swift in Sources */,
+				17C8456D224834CE007AE8B5 /* FinanceNotificationsViewController.swift in Sources */,
+				17A4C1442235E6A40027253D /* ATCDatedChartDateRangeCollectionViewCell.swift in Sources */,
+				172DF3E32246EFF900320E60 /* ATCFinanceAssetPosition.swift in Sources */,
+				17A4C0F12235B5220027253D /* ATCGenericUIConfiguration.swift in Sources */,
+				17A4C0192235B5210027253D /* ATCHostViewController.swift in Sources */,
+				172DF3A3223EDC7B00320E60 /* ExpenseCategoryCollectionViewCell.swift in Sources */,
+				17A4C10D2235B5220027253D /* Typealiases.swift in Sources */,
+				17A4C00B2235B5210027253D /* ATCGridViewRowAdapter.swift in Sources */,
+				17A4C0DA2235B5220027253D /* ATCFirebaseFirestoreDataSource.swift in Sources */,
+				172DF3CF22433FB300320E60 /* CryptoViewController.swift in Sources */,
+				17A4C0EB2235B5220027253D /* ATCLandingScreenProtocol.swift in Sources */,
+				172DF3AC2240A94B00320E60 /* ExpenseCategoryRowAdapter.swift in Sources */,
+				17A4C0A62235B5210027253D /* ATCSelectFilterCollectionViewCell.swift in Sources */,
+				172DF3C62243208500320E60 /* CashViewController.swift in Sources */,
+				17A4C0222235B5210027253D /* ATCMenuItemRowAdapter.swift in Sources */,
+				17A4BFD52235B5210027253D /* ATCSearchBar.swift in Sources */,
+				17A4C09F2235B5210027253D /* ATCSearchBarCollectionViewCell.swift in Sources */,
+				17A4BFBE2235B5210027253D /* ATCProfileItem.swift in Sources */,
+				17A4C0122235B5210027253D /* ATCCarouselAdapter.swift in Sources */,
+				17A4C0982235B5210027253D /* ATCLineChartCollectionViewCell.swift in Sources */,
+				172DF3B02242F47600320E60 /* PortfolioPieChartRowAdapter.swift in Sources */,
+				17A4C10A2235B5220027253D /* ConstraintView.swift in Sources */,
+				172DF3DE224349BE00320E60 /* TransactionsRowAdapter.swift in Sources */,
+				17A4C02E2235B5210027253D /* ATCWebViewController.swift in Sources */,
+				172DF3FC22472CC300320E60 /* FinanceAssetStatsCollectionViewCell.swift in Sources */,
+				17A4C01F2235B5210027253D /* ATCMenuTableViewController.swift in Sources */,
+				17A4C1082235B5220027253D /* ConstraintConfig.swift in Sources */,
+				17A4C0B12235B5210027253D /* ATCTextField.swift in Sources */,
+				17A4C0FD2235B5220027253D /* ConstraintDescription.swift in Sources */,
+				17C8457122483ECB007AE8B5 /* FinanceAccountDetailsViewController.swift in Sources */,
+				17A4C1342235CD0C0027253D /* SettingsViewController.swift in Sources */,
+				17A4BFB62235B5210027253D /* InstaRoundImageButton.swift in Sources */,
+				17A4C0EF2235B5220027253D /* ATCOnboardingConfigurationProtocol.swift in Sources */,
+				17A4C0092235B5210027253D /* ATCPieChartAdapter.swift in Sources */,
+				17A4C1002235B5220027253D /* ConstraintViewDSL.swift in Sources */,
+				172DF3AA2240A7E500320E60 /* ATCExpenseCategory.swift in Sources */,
+				17A4C1162235B5220027253D /* Constraint.swift in Sources */,
+				172DF3F7224721FF00320E60 /* AssetTradingUnitRowAdapter.swift in Sources */,
+				172DF3F922472C7800320E60 /* FinanceAssetStatsRowAdapter.swift in Sources */,
+				17A4BFC52235B5210027253D /* ATCNetworkingManager.swift in Sources */,
+				172DF38B223DD4F900320E60 /* FinanceNewsRowAdapter.swift in Sources */,
+				17E8F5202249E0C20030BB3E /* FinanceInstitutionRowAdapter.swift in Sources */,
+				172DF394223E0C0300320E60 /* NewsPreviewStoriesViewController.swift in Sources */,
+				17C845922249DDF9007AE8B5 /* FinanceAddInstitutionViewController.swift in Sources */,
+				17A4C0D52235B5220027253D /* ATCFirebaseLoginManager.swift in Sources */,
+				17A4C0A82235B5210027253D /* ATCNotificationCollectionViewCell.swift in Sources */,
+				17A4C1012235B5220027253D /* ConstraintPriorityTarget.swift in Sources */,
+				17A4C0282235B5210027253D /* ATCProfileScreenProtocol.swift in Sources */,
+				17A4C0E52235B5220027253D /* ATCClassicLandingScreenViewController.swift in Sources */,
+				17A4BFC42235B5210027253D /* ATCProfileViewController.swift in Sources */,
+				17A4C0D12235B5210027253D /* ATCPersistentStore.swift in Sources */,
+				17A4C1122235B5220027253D /* ConstraintRelation.swift in Sources */,
+				172DF3EC2246F77E00320E60 /* FinanceAssetPositionRowAdapter.swift in Sources */,
+				17A4C0142235B5210027253D /* ATCBarChartAdapter.swift in Sources */,
+				17A4C0182235B5210027253D /* UIViewController+ATCAdditions.swift in Sources */,
+				17C845902249DBC0007AE8B5 /* ATCFinanceInstitution.swift in Sources */,
+				172DF372223DC94800320E60 /* CardHeaderCollectionViewCell.swift in Sources */,
+				17A4C0EC2235B5220027253D /* ATCSignUpScreenManager.swift in Sources */,
+				17A4C0272235B5210027253D /* ATCGenericCollectionViewController.swift in Sources */,
+				17A4BFB92235B5210027253D /* ATCProfileItemCollectionViewCell.swift in Sources */,
+				17A4C0E32235B5220027253D /* ATCClassicSignUpViewController.swift in Sources */,
+				17A4C1302235C7590027253D /* FinanceHostViewController.swift in Sources */,
+				17A4BFCA2235B5210027253D /* ATCNotification.swift in Sources */,
+				17A4BD032235B4DB0027253D /* AppDelegate.swift in Sources */,
+				17A4BFD72235B5210027253D /* ATCUser.swift in Sources */,
+				17A4BFD02235B5210027253D /* ATCDateRangeModel.swift in Sources */,
+				17A4C1402235DE1D0027253D /* ATCDatedLineChartViewController.swift in Sources */,
+				172DF3D82243444900320E60 /* ATCFinanceTransaction.swift in Sources */,
+				17A4C02B2235B5210027253D /* ATCLiquidCollectionViewLayout.swift in Sources */,
+				17A4C0DE2235B5220027253D /* TimeFormatHelper.swift in Sources */,
+				17A4C0FC2235B5220027253D /* LayoutConstraintItem.swift in Sources */,
+				1737B05A23307009005F2DFA /* ATCSocialUserManagerProtocol.swift in Sources */,
+				17A4BFD22235B5210027253D /* ATCViewControllerContainerViewModel.swift in Sources */,
+				17A4C10B2235B5220027253D /* ConstraintLayoutGuide.swift in Sources */,
+				172DF3D6224343C900320E60 /* TransactionsViewController.swift in Sources */,
+				172DF39D223EDC5700320E60 /* ExpensesViewController.swift in Sources */,
+				17A4BFD82235B5210027253D /* UIScrollView.swift in Sources */,
+				172DF366223DC15100320E60 /* ATCCardViewControllerContainerCollectionViewCell.swift in Sources */,
+				17A4C0212235B5210027253D /* ATCMenuHeaderTableViewCell.swift in Sources */,
+				17A4C11A2235B5220027253D /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				17A4C0E92235B5220027253D /* ATCOnboardingCoordinator.swift in Sources */,
+				172DF360223DAE6700320E60 /* FinanceDataSourceProvider.swift in Sources */,
+				17E8F583224C20410030BB3E /* ATCKeyboardViewController.swift in Sources */,
+				17A4BFC32235B5210027253D /* ATCProfileUpdaterProtocol.swift in Sources */,
+				17A4C0482235B5210027253D /* ATCAPIManager.swift in Sources */,
+				172DF3A62240A6E800320E60 /* ExpenseCategoriesViewController.swift in Sources */,
+				17A4C08C2235B5210027253D /* ATCStoryCollectionViewCell.swift in Sources */,
+				17A4C09C2235B5210027253D /* ATCViewControllerContainerCollectionViewCell.swift in Sources */,
+				172DF3B52242FD6400320E60 /* ATCFinanceAccount.swift in Sources */,
+				17A4C08B2235B5210027253D /* ATCImageCollectionViewCell.swift in Sources */,
+				17A4C0152235B5210027253D /* ATCImageRowAdapter.swift in Sources */,
+				17A4C1032235B5220027253D /* ConstraintMakerFinalizable.swift in Sources */,
+				17A4C00C2235B5210027253D /* ATCStoryAdapter.swift in Sources */,
+				17A4C0FA2235B5220027253D /* CalendarDateRangePickerViewController.swift in Sources */,
+				17A4BFDC2235B5210027253D /* UITextField.swift in Sources */,
+				17A4BFDE2235B5210027253D /* UIButton.swift in Sources */,
+				17A4C00E2235B5210027253D /* ATCSquareStoryRowAdapter.swift in Sources */,
+				17A4C0EA2235B5220027253D /* ATCLoginScreenManager.swift in Sources */,
+				172DF3D32243413100320E60 /* NewsViewController.swift in Sources */,
+				17A4C1022235B5220027253D /* ConstraintInsets.swift in Sources */,
+				17A4BFCC2235B5210027253D /* ATCBarChart.swift in Sources */,
+				172DF385223DD35400320E60 /* CardFooterModel.swift in Sources */,
+				1737B05923307009005F2DFA /* ATCSocialFirebaseUserManager.swift in Sources */,
+				17A4C1172235B5220027253D /* Debugging.swift in Sources */,
+				172DF390223DD98E00320E60 /* StocksPreviewViewController.swift in Sources */,
+				17A4C1042235B5220027253D /* ConstraintDSL.swift in Sources */,
+				17A4BFBF2235B5210027253D /* ATCProfileButtonItemRowAdapter.swift in Sources */,
+				17A4C1472235ED200027253D /* ATCHomeViewController.swift in Sources */,
+				17A4C0942235B5210027253D /* ATCPieChartCollectionViewCell.swift in Sources */,
+				17E8F592224DB6950030BB3E /* WatchlistViewController.swift in Sources */,
+				17A4C1362235CE4D0027253D /* ATCFacebookPost.swift in Sources */,
+				17C8456F22483711007AE8B5 /* FinanceNotificationRowAdapter.swift in Sources */,
+				172DF392223E0BE900320E60 /* CyptoPreviewViewController.swift in Sources */,
+				17A4C0D02235B5210027253D /* ATCGenericLocalHeteroDataSource.swift in Sources */,
+				17A4BFCB2235B5210027253D /* ATCLineChart.swift in Sources */,
+				172DF382223DD2B300320E60 /* CardFooterRowAdapter.swift in Sources */,
+				17A4C0902235B5210027253D /* ATCDividerCollectionViewCell.swift in Sources */,
+				172DF3CB224326BD00320E60 /* StocksHomeViewController.swift in Sources */,
+				17A4C0262235B5210027253D /* ATCClassicWalkthroughViewController.swift in Sources */,
+				17A4BFD42235B5210027253D /* ATCDivider.swift in Sources */,
+				172DF3CD2243279100320E60 /* StocksViewController.swift in Sources */,
+				17C8458B2249D79A007AE8B5 /* AddBankAccountCollectionViewCell.swift in Sources */,
+				17A4C02C2235B5210027253D /* ATCCollectionViewFlowLayout.swift in Sources */,
+				17A4BFDF2235B5210027253D /* UIImage.swift in Sources */,
+				17C845862249C751007AE8B5 /* BankAccountViewController.swift in Sources */,
+				17A4C1152235B5220027253D /* ConstraintItem.swift in Sources */,
+				17A4C1072235B5220027253D /* ConstraintInsetTarget.swift in Sources */,
+				17A4C0992235B5210027253D /* ATCBarChartCollectionViewCell.swift in Sources */,
+				17A4C0102235B5210027253D /* ATCDateRangeAdapter.swift in Sources */,
+				172DF379223DCB3F00320E60 /* FinanceAssetRowAdapter.swift in Sources */,
+				17A4C0242235B5210027253D /* ATCWalkthroughViewController.swift in Sources */,
+				172DF3BB2242FF7C00320E60 /* FinanceAccountRowAdapter.swift in Sources */,
+				172DF376223DCA1100320E60 /* CardFooterCollectionViewCell.swift in Sources */,
+				17A4C1142235B5220027253D /* ConstraintView+Extensions.swift in Sources */,
+				17A4C10C2235B5220027253D /* ConstraintLayoutSupport.swift in Sources */,
+				17A4BFD12235B5210027253D /* ATCImage.swift in Sources */,
+				17A4C1252235B5220027253D /* ATCPushNotificationSender.swift in Sources */,
+				17A4C0F02235B5220027253D /* UIImage+ATCAdditions.swift in Sources */,
+				17A4C0302235B5210027253D /* ATCGenericSearchViewController.swift in Sources */,
+				17E8F585224C21D30030BB3E /* ATCKeyboardKey.swift in Sources */,
+				17A4C1132235B5220027253D /* ConstraintLayoutGuideDSL.swift in Sources */,
+				17A4BFBB2235B5210027253D /* ATCProfileButtonCollectionViewCell.swift in Sources */,
+				17A4C01B2235B5210027253D /* ATCMenuItemCollectionViewCellProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17A4BD0B2235B4DE0027253D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A4BD0C2235B4DE0027253D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A4BD0F2235B4DE0027253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A4BD102235B4DE0027253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A4BD122235B4DE0027253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595F4E65A988E7A28F49C23B /* Pods-FinanceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_MISSING_NOESCAPE = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_PRIVATE_MODULE = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_VEXING_PARSE = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBC_WARNINGS = NO;
+				IBSC_WARNINGS = NO;
+				INFOPLIST_FILE = FinanceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.BeardedRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "BR-Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17A4BD132235B4DE0027253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709583CC44069E4CB80FC189 /* Pods-FinanceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_MISSING_NOESCAPE = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_PRIVATE_MODULE = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_VEXING_PARSE = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBC_WARNINGS = NO;
+				IBSC_WARNINGS = NO;
+				INFOPLIST_FILE = FinanceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.BeardedRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "BR-Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A4BCFA2235B4DB0027253D /* Build configuration list for PBXProject "FinanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A4BD0F2235B4DE0027253D /* Debug */,
+				17A4BD102235B4DE0027253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A4BD112235B4DE0027253D /* Build configuration list for PBXNativeTarget "FinanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A4BD122235B4DE0027253D /* Debug */,
+				17A4BD132235B4DE0027253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17A4BCF72235B4DB0027253D /* Project object */;
+}
